@@ -419,7 +419,7 @@ header.box-shadow {
     padding: 10px 16px 11px;
     /* background: hsl(0deg 100% 47%); */
     color: #000;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 100px;
     min-height: 34px;
     font-family: "BootsSharp";
@@ -612,9 +612,9 @@ main {
     line-height: 150%;
     text-transform: uppercase;
     color: #05054B;
-    margin-bottom: 30px !important;
-    margin-top: 0;
-    letter-spacing: .23em;
+    margin-bottom: 15px !important;
+    margin-top: 50px !important;
+    letter-spacing: .15em;
     font-weight: 600;
 }
 
