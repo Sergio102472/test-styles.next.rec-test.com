@@ -29,11 +29,11 @@ html {
 
 body {font-family: "BootsSharp";font-family: 'Montserrat', sans-serif;font-weight: 100;font-size: 16px;color: #000;position: relative;}
 .vdd-container {
-    position: relative;
-    max-width: 1250px;
-    margin: 0 auto;
-    padding: 1em;
-    overflow: unset;
+    /* position: relative; */
+    /* max-width: 1250px; */
+    /* margin: 0 auto; */
+    /* padding: 1em; */
+    /* overflow: unset; */
 }
 .spa-body {
     width: 100% !important;
@@ -250,11 +250,11 @@ a.silent-link {
     /* box-shadow: 0 0 3px 0px black; */
 }
 .vdd-container {
-    position: relative;
-    max-width: 764px;
-    margin: 0 auto;
-    padding: 1em;
-    overflow: unset;
+    /* position: relative; */
+    /* max-width: 764px; */
+    /* margin: 0px auto; */
+    /* padding: 1em; */
+    /* overflow: unset; */
 }
 div#mainMenu {
     background: transparent;
@@ -519,16 +519,17 @@ header {
 main {
     overflow: unset;
     padding: 0 0 40px 0;
-    margin: 0px 0 !important;
-    padding: 72px 150px 74px;
+    margin: 0px auto !important;
+    /* padding: 15px 88px 74px; */
     border: 1px solid #D0D0D0;
     border-radius: 5px;
     background: #FFF;
+    max-width: 750px;
 }
 .vdd-viewport {
     overflow: unset;
     position: relative;
-    max-width: 750px;
+    /* max-width: 750px; */
     margin: 0 auto;
 }
 .dx-box-item-content {
