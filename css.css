@@ -210,7 +210,7 @@ a.dx-button-mode-contained:hover {
 }
 
 .dx-button-mode-contained.dx-state-hover {
-    background-color: #05054B;
+    background-color: #05054B !important;
     border-color: #05054B;
 }
 
