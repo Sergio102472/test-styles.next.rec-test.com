@@ -340,9 +340,9 @@ header.box-shadow {
 
 #card-number, #card-date, #card-code, #card-postal
  {
-    background: #fbfbfb;
+    background: #F2F2F2;
     border: 1px solid #00a4e6;
-    border-radius: 100px;
+    /* border-radius: 100px; */
     height: 41px;
     padding: 12px 12px 12px !important;
 }
@@ -613,7 +613,7 @@ main {
     color: #05054B;
     margin-bottom: 15px !important;
     margin-top: 50px !important;
-    letter-spacing: .15em;
+    letter-spacing: .1em;
     font-weight: 600;
 }
 
