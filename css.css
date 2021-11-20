@@ -27,15 +27,7 @@ html {
     -webkit-user-select: auto;
 }
 
-body {
-font-family: "BootsSharp";
-font-family: 'Montserrat', sans-serif;
-font-weight: 100;
-font-size: 16px;
-color: #000;
-position: relative;
-
-}
+body {font-family: "BootsSharp";font-family: 'Montserrat', sans-serif;font-weight: 100;font-size: 16px;color: #000;position: relative;}
 .vdd-container {
     position: relative;
     max-width: 1250px;
@@ -72,7 +64,7 @@ position: relative;
 }
 .dx-widget {
     color: #05054B;
-    font-weight: 400;
+    /* font-weight: 600; */
     font-size: 16px;
 }
 #ttr-container  .text-italic {
@@ -150,7 +142,7 @@ a {
     color:#0092cc;
     color: #00a4e6;
     font-size: 18px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 
@@ -164,7 +156,26 @@ a {
     border-color: transparent;
     color: #fff;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
+    line-height: 22px;
+    background: #0067B2;
+    border-radius: 5px;
+    border: 1px solid #0067B2;
+    padding: 3px 24px;
+    color: #FFF;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* letter-spacing: .23em; */
 }
 
 /* Button Secondary */
@@ -180,9 +191,10 @@ a.dx-button-mode-contained {
     border-color: transparent;
     color: #fff;
     text-transform: uppercase;
-    border-radius: 100px;
+    border-radius: 5px;
     /* min-width: 60px; */
-    font-size: 14px;
+    font-size: 17px;
+    padding: 3px 24px;
 }
 .dx-button-mode-contained .dx-icon {
     color: #fff;
@@ -404,14 +416,15 @@ header.box-shadow {
 
 .dx-texteditor-input {
     margin: 0;
-    padding: 10px 22px 11px;
+    padding: 10px 16px 11px;
     /* background: hsl(0deg 100% 47%); */
-    color: #333;
+    color: #000;
     font-size: 16px;
     border-radius: 100px;
     min-height: 34px;
     font-family: "BootsSharp";
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .dx-widget input, .dx-widget textarea {
@@ -519,13 +532,15 @@ main {
     margin: 0 auto;
 }
 .dx-box-item-content {
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 .scrollable-control { overflow: unset;}
 .dx-field-item-help-text, .dx-field-item-label-text {
-    color: #333;
+    color: #7c7c7c;
     font-family: "BootsSharp";
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .dx-field-item-help-text {
