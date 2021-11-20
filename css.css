@@ -70,7 +70,7 @@ html {
     -webkit-user-select: auto;
 }
 
-body {font-family: 'BootsSharp' , sans-serif;/* font-family: 'Montserrat', sans-serif; */font-weight: 100;font-size: 16px;color: #000;position: relative;}
+body {font-family: 'BootsSharp' , sans-serif;/* font-family: 'Montserrat', sans-serif; */font-weight: 300;font-size: 16px;color: #05054B;position: relative;}
 .vdd-container {
     /* position: relative; */
     /* max-width: 1250px; */
@@ -85,13 +85,15 @@ body {font-family: 'BootsSharp' , sans-serif;/* font-family: 'Montserrat', sans-
 
 .dx-theme-generic-typography {
     /* background-color: #fff; */
-    color: #333;
-    font-weight: 400;
-    font-size: 16px;
+    color: #05054B;
+    /* font-weight: 400; */
+    font-size: 18px;
     font-family: 'BootsSharp' , sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
-    line-height: 1.6;
+    /* line-height: 1.6; */
+    line-height: 27px;
     background: #F2F2F2;
+    font-weight: 300;
 }
 .line-top {
     border-top: 1px solid;
