@@ -9,7 +9,7 @@
 .ml-3, .mx-3 { margin-left: 0 !important; }
 .mt-1, .my-1 { margin-top: 0 !important; }
 .pt-2, .py-2 {  padding-top: 0 !important; }
-.mt-4, .my-4 { margin-top: 0 !important; }
+.mt-4, .my-4 {margin-top: 0 !important;}
 
 /* /RESET */
 
@@ -204,26 +204,26 @@ a.dx-button-mode-contained {
 
 div.dx-button-mode-contained,
 a.dx-button-mode-contained:hover {
-    background-color: #00a4e6;
-    border-color: #0092CC;
+    background-color: #05054B;
+    border-color: #05054B;
  
 }
 
 .dx-button-mode-contained.dx-state-hover {
-    background-color: #00a4e6;
-    border-color: #0092CC;
+    background-color: #05054B;
+    border-color: #05054B;
 }
 
 .dx-button-mode-contained.dx-button-success.dx-state-hover {
-    background-color: #007fb1;
+    background-color: #05054B;
     border-color: transparent;
   }
   .dx-button-mode-contained.dx-button-success.dx-state-focused {
-    background-color: #007fb1;
+    background-color: #05054B;
     border-color: transparent;
   }
   .dx-button-mode-contained.dx-button-success.dx-state-active {
-    background-color: #007fb1;
+    background-color: #05054B;
     border-color: transparent;
     color: #fff;
   }
@@ -519,11 +519,12 @@ header {
 main {
     overflow: unset;
     padding: 0 0 40px 0;
-    margin: 0px auto !important;
-    /* padding: 15px 88px 74px; */
+    margin: 75px auto 75px auto !important;
+    padding: 50px 0 !important;
     border: 1px solid #D0D0D0;
     border-radius: 5px;
     background: #FFF;
+    width: 100%;
     max-width: 750px;
 }
 .vdd-viewport {
@@ -605,13 +606,13 @@ main {
 
 
 .dx-theme-generic-typography .dx-font-m {
-    font-weight: 400;
-    font-size: 20px;
+    /* font-weight: 400; */
+    /* font-size: 20px; */
     font-size: 30px;
     line-height: 150%;
     text-transform: uppercase;
     color: #05054B;
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
     margin-top: 0;
     letter-spacing: .23em;
     font-weight: 600;
