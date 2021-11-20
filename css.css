@@ -73,7 +73,6 @@ position: relative;
     color: #333;
     font-weight: 400;
     font-size: 16px;
-
 }
 #ttr-container  .text-italic {
     margin-top: 30px !important;
@@ -147,10 +146,11 @@ p {font-size: 16px; color: #000;}
 /* links */
 .dx-theme-generic-typography a,
 a {
-    color:#0092cc;
-    color: #00a4e6;
+    /* color:#0092cc; */
+    /* color: #00a4e6; */
+    color: #0067B2;
     font-size: 18px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 
@@ -182,7 +182,11 @@ a.dx-button-mode-contained {
     text-transform: uppercase;
     border-radius: 100px;
     /* min-width: 60px; */
-    font-size: 14px;
+    font-size: 18px;
+    background: #FFF;
+    color: #0067B2;
+    border: 1px solid #0067B2;
+    border-radius: 5px;
 }
 .dx-button-mode-contained .dx-icon {
     color: #fff;
@@ -192,9 +196,11 @@ a.dx-button-mode-contained {
 
 div.dx-button-mode-contained,
 a.dx-button-mode-contained:hover {
-    background-color: #00a4e6;
-    border-color: #0092CC;
- 
+    /* background-color: #00a4e6; */
+    /* border-color: #0092CC; */
+    background: #FFF;
+    color: #05054B;
+    border: 1px solid #05054B;
 }
 
 .dx-button-mode-contained.dx-state-hover {
