@@ -248,9 +248,9 @@ a.silent-link {
     height: 30px;
     /* box-shadow: 0 0 3px 0px black; */
 }
-.vdd-container {
+.vdd-viewport-width-narrow header nav .vdd-container {
     /* position: relative; */
-    /* max-width: 764px; */
+    max-width: 764px !important;
     /* margin: 0px auto; */
     /* padding: 1em; */
     /* overflow: unset; */
@@ -259,18 +259,18 @@ div#mainMenu {
     background: transparent;
 }
 header > nav {
-    padding: 10px 0;
+    padding: 25px 0;
     border-bottom: 1px solid;
     overflow: hidden;
-    background: rgb(90 177 212 / 5%);
+    /* background: rgb(90 177 212 / 5%); */
 }
 header.box-shadow {
     box-shadow: 0 0.25rem 0.75rem rgb(189 189 189 / 24%);
 }
 .dx-dropdownmenu.dx-dropdownmenu-button.dx-button.dx-button-normal.dx-widget.dx-button-has-icon.dx-button-mode-text {
-    background: rgb(226 226 226 / 58%);
+    /* background: rgb(226 226 226 / 58%); */
     color: #fff;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     margin: -10px 0 0;
     padding: 11px;
 }
