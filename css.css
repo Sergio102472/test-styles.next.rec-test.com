@@ -115,8 +115,10 @@ form.mt-3 {
 }
 .dx-widget {
     color: #05054B;
-    /* font-weight: 400; */
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    /* font-weight: 500; */
+    font-family: 'BootsSharp' , sans-serif;
 }
 
 span.dx-field-item-label-content {
@@ -436,7 +438,9 @@ header.box-shadow {
     content: "";
 }
 .dx-checkbox-icon {
-    border: 1px solid #00a4e6;
+    border: 1px solid #0067b2;
+    background: #0067B2;
+    border-radius: 3px;
 }
 .dx-device-phone .identity-form {
     /* margin: 20px auto; */
