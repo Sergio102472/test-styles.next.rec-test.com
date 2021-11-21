@@ -669,6 +669,17 @@ main {
     font-weight: 500;
 }
 
+nav .dx-font-m.text-center {
+    margin-bottom: 17px;
+    margin-top: 0;
+}
+
+nav.vdd-sub-title .dx-theme-generic-typography .dx-font-m {
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding: 0;
+}
+
 div#formProfile-caption {
     padding-bottom: 24px;
     padding-top: 0;
