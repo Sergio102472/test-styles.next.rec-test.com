@@ -798,15 +798,15 @@ div#formProfile-caption {
         margin: -28px 0 0;
     }
     main {
-        overflow: unset;
-        padding: 0 0 40px 0;
-        margin: 75px auto 75px auto !important;
-        padding: 50px 0 !important;
-        border: 1px solid #D0D0D0;
-        border-radius: 5px;
-        background: #FFF;
-        width: 100%;
-        max-width: 750px;
+        /* overflow: unset; */
+        /* padding: 0 0 40px 0; */
+        margin: 0px auto 75px auto !important;
+        /* padding: 50px 0 !important; */
+        /* border: 0px solid #D0D0D0; */
+        /* border-radius: 5px; */
+        /* background: #FFF; */
+        /* width: 100%; */
+        /* max-width: 750px; */
     }
 }
 
