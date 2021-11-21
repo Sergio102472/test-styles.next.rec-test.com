@@ -124,7 +124,7 @@ form.mt-3 {
 }
 
 .dx-pager.dx-light-mode .dx-page-sizes {
-    min-width: 40%;
+    /* min-width: 40%; */
 }
 
 .dx-radiogroup-horizontal {
@@ -442,7 +442,7 @@ header.box-shadow {
     min-width: 200px;
 }
 
-.dx-show-invalid-badge.dx-selectbox.dx-textbox.dx-texteditor.dx-dropdowneditor-button-visible.dx-editor-outlined.dx-widget.dx-dropdowneditor.dx-dropdowneditor-field-clickable {
+.dx-page-sizes .dx-show-invalid-badge.dx-selectbox.dx-textbox.dx-texteditor.dx-dropdowneditor-button-visible.dx-editor-outlined.dx-widget.dx-dropdowneditor.dx-dropdowneditor-field-clickable {
     width: 62px;
     min-width: 100px;
     max-width: 40%;
