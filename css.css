@@ -123,6 +123,13 @@ form.mt-3 {
     font-family: 'BootsSharp' , sans-serif;
 }
 
+.dx-radiogroup-horizontal {
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    /* background: #f2f2f2; */
+    padding: 15px;
+}
+
 .dx-dateview-item.dx-dateview-item-selected {
     color: #05054B;
 }
@@ -130,7 +137,7 @@ form.mt-3 {
 .dx-radiogroup-vertical.dx-widget {
     border: 1px solid #d0d0d0;
     border-radius: 5px;
-    background: #f2f2f2;
+    /* background: #f2f2f2; */
     padding: 15px;
 }
 
