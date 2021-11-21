@@ -70,7 +70,7 @@ html {
     -webkit-user-select: auto;
 }
 
-body {font-family: 'BootsSharp' , sans-serif;/* font-family: 'Montserrat', sans-serif; */font-weight: 300;font-size: 16px;color: #05054B;position: relative;}
+body {font-family: 'BootsSharp' , sans-serif;/* font-family: 'Montserrat', sans-serif; */font-weight: 300;font-size: 18px;color: #05054B;position: relative;}
 .vdd-viewport-width-narrow main .vdd-container {
     position: relative;
     max-width: 540px !important;
@@ -102,7 +102,7 @@ body {font-family: 'BootsSharp' , sans-serif;/* font-family: 'Montserrat', sans-
     padding: 0 0 15px 0;
 }
 .dx-theme-border-color {
-    border-color: #d4d4d4 !important;
+    border-color: #d0d0d0 !important;
 }
 .text-nowrap {
     font-weight: bold;
@@ -111,6 +111,13 @@ body {font-family: 'BootsSharp' , sans-serif;/* font-family: 'Montserrat', sans-
     color: #05054B;
     /* font-weight: 400; */
     font-size: 16px;
+}
+
+span.dx-field-item-label-content {
+    background: #fff;
+    padding: 0 6px;
+    line-height: 19px;
+    /* border-radius: 10px; */
 }
 
 .dx-field-button-item {
@@ -385,9 +392,10 @@ header.box-shadow {
 
 .vdd-uploader-container .vdd-uploader-drop-area {
     height: 100px;
-    background: #e2e2e2;
-    border-radius: 25px;
-    margin: 44px 0 0 0;
+    background: #f2f2f2;
+    border-radius: 5px;
+    /* margin: 44px 0 0 0; */
+    border: 4px dashed #000;
 }
 
 #card-number, #card-date, #card-code, #card-postal
@@ -486,7 +494,10 @@ header.box-shadow {
 
 .dx-field-item-label-location-top {
     display: block;
-    padding: 0 0 6px 0;
+    padding: 10px 0 0px 11px;
+    margin-bottom: -5px;
+    font-size: 8px;
+    /* border-radius: 10px; */
 }
 .dx-dropdowneditor.dx-state-active .dx-dropdowneditor-icon,
 .dx-dropdowneditor.dx-state-hover:not(.dx-custom-button-hovered) .dx-dropdowneditor-icon {
@@ -589,17 +600,20 @@ main {
 }
 .scrollable-control { overflow: unset;}
 .dx-field-item-help-text, .dx-field-item-label-text {
-    color: #05054B;
+    color: #05054b;
     font-family: 'BootsSharp' , sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .dx-field-item-help-text {
-    color: #888888;
-    font-size: 11px;
-    padding: 6px 0 0 0;
+    color: #b1b1b1;
+    font-size: 12px;
+    padding: 4px 0 0 0;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: .4px;
 }
 
 
