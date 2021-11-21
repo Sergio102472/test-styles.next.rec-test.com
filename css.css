@@ -115,9 +115,10 @@ body {font-family: 'BootsSharp' , sans-serif;/* font-family: 'Montserrat', sans-
 
 span.dx-field-item-label-content {
     background: #fff;
-    padding: 0 6px;
+    padding: 2px 0px 2px 8px;
     line-height: 19px;
-    /* border-radius: 10px; */
+    border-radius: 30px;
+    border-bottom: 1px solid #d0d0d0;
 }
 
 .dx-field-button-item {
@@ -198,9 +199,12 @@ p {font-size: 18px;color: #05054B;}
 .dx-theme-generic-typography a,
 a {
     color:#0092cc;
-    color: #00a4e6;
+    color: #0067B2;
     font-size: 18px;
     /* text-decoration: underline; */
+    line-height: 27px;
+    font-family: 'BootsSharp' , sans-serif;
+    font-weight: 300;
 }
 
 
@@ -252,8 +256,9 @@ a.dx-button-mode-contained {
     text-transform: uppercase;
     border-radius: 5px;
     /* min-width: 60px; */
-    font-size: 17px;
-    padding: 3px 24px;
+    font-size: 16px;
+    padding: 8px 24px 4px 24px;
+    font-family: 'BootsSharp' , sans-serif;
 }
 .dx-button-mode-contained .dx-icon {
     color: #fff;
@@ -495,9 +500,11 @@ header.box-shadow {
 .dx-field-item-label-location-top {
     display: block;
     padding: 10px 0 0px 11px;
-    margin-bottom: -5px;
+    margin-bottom: -8px;
     font-size: 8px;
     /* border-radius: 10px; */
+    position: relative;
+    z-index: 1;
 }
 .dx-dropdowneditor.dx-state-active .dx-dropdowneditor-icon,
 .dx-dropdowneditor.dx-state-hover:not(.dx-custom-button-hovered) .dx-dropdowneditor-icon {
