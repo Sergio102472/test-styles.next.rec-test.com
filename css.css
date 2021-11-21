@@ -387,7 +387,7 @@ header.box-shadow {
     background: #F2F2F2;
     border: 1px solid #D0D0D0;
     border-radius: 5px;
-    height: 41px;
+    height: 50px;
 }
 
 .vdd-uploader-container .vdd-uploader-drop-area {
@@ -475,12 +475,12 @@ header.box-shadow {
 
 .dx-texteditor-input {
     margin: 0;
-    padding: 10px 16px 11px;
+    padding: 14px 16px 11px;
     /* background: hsl(0deg 100% 47%); */
     color: #000;
     font-size: 18px;
     border-radius: 100px;
-    min-height: 34px;
+    min-height: 32px;
     font-family: 'BootsSharp' , sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
     font-weight: 400;
