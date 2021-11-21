@@ -109,9 +109,15 @@ body {font-family: 'BootsSharp' , sans-serif;/* font-family: 'Montserrat', sans-
 }
 .dx-widget {
     color: #05054B;
-    font-weight: 600;
+    /* font-weight: 400; */
     font-size: 16px;
 }
+
+.dx-field-button-item {
+    text-align: center !important;
+}
+
+div#formChangeEmail {}
 #ttr-container  .text-italic {
     margin-top: 30px !important;
 }
@@ -221,6 +227,7 @@ a {
     -ms-user-select: none;
     user-select: none;
     /* letter-spacing: .23em; */
+    transition: background .4s,color .4s,border .4s;
 }
 
 /* Button Secondary */
@@ -468,7 +475,7 @@ header.box-shadow {
     min-height: 34px;
     font-family: 'BootsSharp' , sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .dx-widget input, .dx-widget textarea {
@@ -656,10 +663,15 @@ main {
     line-height: 150%;
     text-transform: uppercase;
     color: #05054B;
-    margin-bottom: 15px !important;
-    margin-top: 50px !important;
+    margin-bottom: 0px;
+    margin-top: 40px;
     letter-spacing: .1em;
-    font-weight: 600;
+    font-weight: 500;
+}
+
+div#formProfile-caption {
+    padding-bottom: 24px;
+    padding-top: 0;
 }
 
 
