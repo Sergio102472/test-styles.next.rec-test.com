@@ -121,6 +121,13 @@ form.mt-3 {
     font-family: 'BootsSharp' , sans-serif;
 }
 
+.dx-radiogroup-vertical.dx-widget {
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    background: #f2f2f2;
+    padding: 15px;
+}
+
 span.dx-field-item-label-content {
     background: #fff;
     padding: 2px 8px 2px 8px;
@@ -406,6 +413,7 @@ header.box-shadow {
     border: 1px solid #D0D0D0;
     border-radius: 5px;
     height: 50px;
+    min-width: 200px;
 }
 
 .vdd-uploader-container .vdd-uploader-drop-area {
@@ -437,7 +445,7 @@ header.box-shadow {
 
 
 .dx-radiobutton-icon::before {
-    border: 1px solid #00a4e6;
+    border: 1px solid #0067B2;
     background-color: #fff;
     content: "";
 }
@@ -470,15 +478,17 @@ header.box-shadow {
     border: 1px solid #f00;
     left: 0 !important;
     right: 0;
-    top: -2px !important;
-    font-size: 18px;
-    padding: 0px 0 12px 0;
+    top: 7px !important;
+    font-size: 14px;
+    padding: 2px 0 3px 3px;
     /* text-align: center; */
     /* margin: 0 15px 0 15px !important; */
     transform: translate(0px, 43px) !important;
     border: unset;
     color: #D8221F;
     /* line-height: 20px; */
+    font-family: 'BootsSharp' , sans-serif;
+    font-weight: 100;
 }
 .dx-checkbox-container + .dx-invalid-message > .dx-overlay-content { min-width: 100px;}
 .dx-checkbox-container + .dx-invalid-message  .dx-invalid-message-content { right: auto;}
