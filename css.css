@@ -259,7 +259,7 @@ a {
     background: #0067B2;
     border-radius: 5px;
     border: 1px solid #0067B2;
-    padding: 8px 24px 3px 24px;
+    padding: 8px 0px 3px 0px;
     color: #FFF;
     display: inline-block;
     margin-bottom: 0;
@@ -808,10 +808,10 @@ div#formProfile-caption {
     .d-flex.flex-row.mt-2.vdd-hide-invalid-badge > div {min-width: 30%;}
 
     .d-flex.flex-row.align-items-center {
-        flex-direction: column !important;
-        gap: 5px;
-        align-items: stretch !important;
-        align-content: stretch;
+        /* flex-direction: column !important; */
+        /* gap: 5px; */
+        /* align-items: stretch !important; */
+        /* align-content: stretch; */
     }
     .d-flex.flex-row.align-items-center > div {
         width: 100% !important;
