@@ -289,7 +289,7 @@ a.dx-button-mode-contained {
     border-radius: 5px;
     /* min-width: 60px; */
     font-size: 16px;
-    padding: 8px 20px 4px 20px;
+    padding: 8px 0px 4px 0px;
     font-family: 'BootsSharp' , sans-serif;
     transition: background .4s,color .4s,border .4s;
 }
@@ -759,7 +759,7 @@ main {
     line-height: 150%;
     text-transform: uppercase;
     color: #05054B;
-    margin-bottom: 40px !important;
+    margin-bottom: 18px !important;
     margin-top: 40px !important;
     letter-spacing: .1em;
     font-weight: 500;
@@ -810,7 +810,7 @@ div#formProfile-caption {
         /* overflow: unset; */
         /* padding: 0 0 40px 0; */
         margin: 0 auto 75px auto !important;
-        /* padding: 50px 0 !important; */
+        padding: 0px 0 50px 0 !important;
         border: 0 solid #f2f2f2;
         /* border-radius: 5px; */
         /* background: #FFF; */
