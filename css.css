@@ -121,6 +121,10 @@ form.mt-3 {
     font-family: 'BootsSharp' , sans-serif;
 }
 
+.dx-dateview-item.dx-dateview-item-selected {
+    color: #05054B;
+}
+
 .dx-radiogroup-vertical.dx-widget {
     border: 1px solid #d0d0d0;
     border-radius: 5px;
@@ -288,8 +292,8 @@ a.dx-button-mode-contained {
 
 div.dx-button-mode-contained,
 a.dx-button-mode-contained:hover {
-    background-color: #05054B;
-    border-color: #05054B;
+    background-color: #0067B2;
+    border-color: #0067B2;
 }
 
 .dx-button-mode-contained.dx-state-hover {
@@ -347,6 +351,10 @@ header > nav {
     border-bottom: 1px solid;
     overflow: hidden;
     /* background: rgb(90 177 212 / 5%); */
+}
+
+header > nav + nav {
+    padding: 0;
 }
 header.box-shadow {
     box-shadow: 0 0.25rem 0.75rem rgb(189 189 189 / 24%);
