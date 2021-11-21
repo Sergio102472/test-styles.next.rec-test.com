@@ -632,7 +632,9 @@ header {
     /* position: sticky; */
     /* top: 0; */
     z-index: 10;
-    background: #fff;
+    /* background: #fff; */
+    /* padding: 0 0 40px 0; */
+    min-height: 60px;
 }
 
 .identity-form {
@@ -800,9 +802,9 @@ div#formProfile-caption {
     main {
         /* overflow: unset; */
         /* padding: 0 0 40px 0; */
-        margin: 0px auto 75px auto !important;
+        margin: 0 auto 75px auto !important;
         /* padding: 50px 0 !important; */
-        /* border: 0px solid #D0D0D0; */
+        border: 0 solid #f2f2f2;
         /* border-radius: 5px; */
         /* background: #FFF; */
         /* width: 100%; */
