@@ -184,7 +184,7 @@ h1 {font-size: 36px;}
 
 
 
-p {font-size: 16px; color: #000;}
+p {font-size: 18px;color: #05054B;}
 
 
 /* links */
@@ -372,7 +372,7 @@ header.box-shadow {
 /*  ----------------------------------------------------    Forms */
 .dx-field-item-required-mark {
     color: #ff0600;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 
@@ -589,16 +589,16 @@ main {
 }
 .scrollable-control { overflow: unset;}
 .dx-field-item-help-text, .dx-field-item-label-text {
-    color: #7c7c7c;
+    color: #05054B;
     font-family: 'BootsSharp' , sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 .dx-field-item-help-text {
     color: #888888;
-    font-size: 13px;
+    font-size: 11px;
     padding: 6px 0 0 0;
 }
 
