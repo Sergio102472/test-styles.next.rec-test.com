@@ -123,6 +123,10 @@ form.mt-3 {
     font-family: 'BootsSharp' , sans-serif;
 }
 
+.dx-pager.dx-light-mode .dx-page-sizes {
+    min-width: 40%;
+}
+
 .dx-radiogroup-horizontal {
     border: 1px solid #d0d0d0;
     border-radius: 5px;
@@ -440,7 +444,8 @@ header.box-shadow {
 
 .dx-show-invalid-badge.dx-selectbox.dx-textbox.dx-texteditor.dx-dropdowneditor-button-visible.dx-editor-outlined.dx-widget.dx-dropdowneditor.dx-dropdowneditor-field-clickable {
     width: 62px;
-    min-width: auto;
+    min-width: 100px;
+    max-width: 40%;
 }
 
 .dx-numberbox.dx-widget {
