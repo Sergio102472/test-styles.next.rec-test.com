@@ -352,11 +352,16 @@ header > nav {
     padding: 25px 0;
     border-bottom: 1px solid;
     overflow: hidden;
-    /* background: rgb(90 177 212 / 5%); */
+    background: rgb(255 255 255);
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    /* position: relative; */
 }
 
 header > nav + nav {
     padding: 0;
+    z-index: 8;
 }
 header.box-shadow {
     box-shadow: 0 0.25rem 0.75rem rgb(189 189 189 / 24%);
@@ -624,8 +629,8 @@ form#form + .line-top {
 
 /* PAGE identity...register */
 header {
-    position: sticky;
-    top: 0;
+    /* position: sticky; */
+    /* top: 0; */
     z-index: 10;
     background: #fff;
 }
@@ -662,7 +667,7 @@ main {
     font-family: 'BootsSharp' , sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .dx-checkbox-normal .dx-field-item-label-text {
