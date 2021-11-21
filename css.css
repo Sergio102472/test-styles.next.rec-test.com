@@ -438,6 +438,16 @@ header.box-shadow {
     min-width: 200px;
 }
 
+.dx-show-invalid-badge.dx-selectbox.dx-textbox.dx-texteditor.dx-dropdowneditor-button-visible.dx-editor-outlined.dx-widget.dx-dropdowneditor.dx-dropdowneditor-field-clickable {
+    width: 62px;
+    min-width: auto;
+}
+
+.dx-numberbox.dx-widget {
+    width: 60px !important;
+    /* text-align: center; */
+}
+
 .vdd-uploader-container .vdd-uploader-drop-area {
     height: 100px;
     background: #f2f2f2;
