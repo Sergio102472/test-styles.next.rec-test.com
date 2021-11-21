@@ -129,6 +129,10 @@ span.dx-field-item-label-content {
     border-bottom: 1px solid #e3e3e3;
 }
 
+.dx-checkbox-normal .dx-field-item-label-content {
+    border-bottom: 0;
+}
+
 .dx-field-button-item {
     /* text-align: center !important; */
 }
@@ -439,8 +443,15 @@ header.box-shadow {
 }
 .dx-checkbox-icon {
     border: 1px solid #0067b2;
-    background: #0067B2;
+    /* background: #0067B2; */
     border-radius: 3px;
+}
+
+.dx-checkbox-checked .dx-checkbox-icon {
+    font: 16px/16px DXIcons;
+    color: #ffffff;
+    text-align: center;
+    background: #0067B2;
 }
 .dx-device-phone .identity-form {
     /* margin: 20px auto; */
@@ -631,7 +642,15 @@ main {
     font-family: 'BootsSharp' , sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
+}
+
+.dx-checkbox-normal .dx-field-item-label-text {
+    color: #05054B;
+    font-weight: 400;
+    font-size: 18px;
+    /* font-weight: 500; */
+    font-family: 'BootsSharp' , sans-serif;
 }
 
 .dx-field-item-help-text {
