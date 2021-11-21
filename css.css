@@ -75,7 +75,7 @@ body {font-family: 'BootsSharp' , sans-serif;/* font-family: 'Montserrat', sans-
     position: relative;
     max-width: 540px !important;
     margin: 0 auto;
-    padding: 1em;
+    padding: 1em !important;
     overflow: unset;
 }
 .spa-body {
