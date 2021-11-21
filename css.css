@@ -817,6 +817,9 @@ div#formProfile-caption {
         /* width: 100%; */
         /* max-width: 750px; */
     }
+    .dx-field-button-item {
+        text-align: center !important;
+    }
 }
 
 
