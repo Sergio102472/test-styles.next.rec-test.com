@@ -809,7 +809,8 @@ div#formProfile-caption {
 
     .d-flex.flex-row.align-items-center {
         /* flex-direction: column !important; */
-        /* gap: 5px; */
+        flex-wrap: wrap;
+        gap: 5px;
         /* align-items: stretch !important; */
         /* align-content: stretch; */
     }
