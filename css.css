@@ -808,11 +808,11 @@ div#formProfile-caption {
     .d-flex.flex-row.mt-2.vdd-hide-invalid-badge > div {min-width: 30%;}
 
     .d-flex.flex-row.align-items-center {
-        /* flex-direction: column !important; */
+        flex-direction: column !important;
         flex-wrap: wrap;
         gap: 5px;
-        /* align-items: stretch !important; */
-        /* align-content: stretch; */
+        align-items: stretch !important;
+        align-content: stretch;
     }
     .d-flex.flex-row.align-items-center > div {
         width: 100% !important;
