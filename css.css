@@ -250,31 +250,57 @@ a {
 /* Button Primary */
 .dx-button-mode-contained.dx-button-success,
 .dx-button-mode-contained.dx-button-default {
-    background-color: #0092CC;
-    border-color: transparent;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 18px;
-    line-height: 23px;
-    background: #0067B2;
-    border-radius: 5px;
-    border: 1px solid #0067B2;
-    padding: 8px 0px 3px 0px;
-    color: #FFF;
-    display: inline-block;
-    margin-bottom: 0;
-    font-weight: 600;
-    text-align: center;
-    white-space: nowrap;
+    /* background-color: #0092CC; */
+    /* border-color: transparent; */
+    /* color: #fff; */
+    /* text-transform: uppercase; */
+    /* font-size: 18px; */
+    /* line-height: 23px; */
+    /* background: #0067B2; */
+    /* border-radius: 5px; */
+    /* border: 1px solid #0067B2; */
+    /* padding: 8px 0px 3px 0px; */
+    /* color: #FFF; */
+    /* display: inline-block; */
+    /* margin-bottom: 0; */
+    /* font-weight: 600; */
+    /* text-align: center; */
+    /* white-space: nowrap; */
     -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    background-image: none;
+    /* touch-action: manipulation; */
+    /* cursor: pointer; */
+    /* background-image: none; */
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
+    /* user-select: none; */
     /* letter-spacing: .23em; */
     transition: background .4s,color .4s,border .4s;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: #6d9dc5;
+    border-radius: 10px;
+    padding-top: 14px;
+    padding-right: 30px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    font-family: 'Mulish',sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 1;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+.dx-button-has-text .dx-button-content {
+    padding: 0;
 }
 
 /* Button Secondary */
@@ -675,6 +701,13 @@ main {
     background: #FFF;
     width: 100%;
     max-width: 750px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #F2F3FA;
+    box-shadow: 0px 30px 70px -24px rgb(0 0 0 / 16%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    /* padding: 64px 64px 64px 64px; */
+    border-radius: 16px 16px 16px 16px;
 }
 .vdd-viewport {
     overflow: unset;
