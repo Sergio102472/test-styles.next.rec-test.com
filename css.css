@@ -319,19 +319,19 @@ a {
 div.dx-button-mode-contained,
 a.dx-button-mode-contained {
     /* background-color: #fff; */
-    border-color: #0067B2;
+    /* border-color: #0067B2; */
     /* color: #0067B2; */
     /* text-transform: uppercase; */
     /* .. */
-    background-color: #0067B2;
+    /* background-color: #0067B2; */
     border-color: transparent;
-    color: #fff;
-    text-transform: uppercase;
-    border-radius: 5px;
+    /* color: #fff; */
+    /* text-transform: uppercase; */
+    /* border-radius: 5px; */
     /* min-width: 60px; */
-    font-size: 16px;
-    padding: 8px 0px 4px 0px;
-    font-family: 'BootsSharp' , sans-serif;
+    /* font-size: 16px; */
+    padding: 8px 0px 7px 0px;
+    /* font-family: 'BootsSharp' , sans-serif; */
     transition: background .4s,color .4s,border .4s;
     border-style: solid;
     border-top-width: 0px;
@@ -348,9 +348,9 @@ a.dx-button-mode-contained {
     padding-left: 30px;
     font-family: 'Mulish',sans-serif;
     font-weight: 700;
-    font-size: 15px;
+    /* font-size: 15px; */
     font-size: 0.9375rem;
-    line-height: 1;
+    /* line-height: 1; */
     text-transform: capitalize;
 }
 .dx-button-mode-contained .dx-icon {
