@@ -134,6 +134,10 @@ form.mt-3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.dx-radiogroup.dx-radiogroup-vertical .dx-item.dx-radiobutton {
+    margin: 0 0 30px 0;
+}
+
 .dx-pager.dx-light-mode .dx-page-sizes {
     /* min-width: 40%; */
 }
