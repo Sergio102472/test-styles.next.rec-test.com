@@ -921,6 +921,13 @@ div#formProfile-caption {
         font-weight: 900;
         font-size: 46px;
     }
+    .vdd-viewport {
+        overflow: unset;
+        position: relative;
+        /* max-width: 750px; */
+        margin: 0 auto;
+        padding: 0 20px;
+    }
 }
 
 
