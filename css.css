@@ -361,25 +361,25 @@ a.dx-button-mode-contained {
 
 div.dx-button-mode-contained,
 a.dx-button-mode-contained:hover {
-    background-color: #0067B2;
-    border-color: #0067B2;
+    background-color: #3d5568;
+    border-color: #3d5568;
 }
 
 .dx-button-mode-contained.dx-state-hover {
-    background-color: #05054B !important;
-    border-color: #05054B;
+    background-color: #3d5568 !important;
+    border-color: #3d5568;
 }
 
 .dx-button-mode-contained.dx-button-success.dx-state-hover {
-    background-color: #05054B;
+    background-color: #3d5568;
     border-color: transparent;
   }
   .dx-button-mode-contained.dx-button-success.dx-state-focused {
-    background-color: #05054B;
+    background-color: #3d5568;
     border-color: transparent;
   }
   .dx-button-mode-contained.dx-button-success.dx-state-active {
-    background-color: #05054B;
+    background-color: #3d5568;
     border-color: transparent;
     color: #fff;
   }
