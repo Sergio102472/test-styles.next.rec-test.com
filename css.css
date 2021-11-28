@@ -605,7 +605,7 @@ header.box-shadow {
     color: #999;
 }
 .dx-invalid .dx-checkbox-container .dx-checkbox-icon {
-    border: 1px solid #f00;
+    border: 1px solid #900;
 }
 
 .dx-texteditor-input {
@@ -841,14 +841,14 @@ main {
     /* font-weight: 400; */
     /* font-size: 20px; */
     /* font-size: 30px; */
-    /* line-height: 150%; */
+    line-height: 100%;
     /* text-transform: uppercase; */
     color: #38536a;
     margin-bottom: 30px !important;
     margin-top: 38px !important;
     /* letter-spacing: .1em; */
     font-weight: 900;
-    font-size: 32px;
+    font-size: 70px;
 }
 
 nav .dx-font-m.text-center {
@@ -906,6 +906,20 @@ div#formProfile-caption {
     }
     .dx-field-button-item {
         text-align: center !important;
+    }
+
+    .dx-theme-generic-typography .dx-font-m {
+        /* font-weight: 400; */
+        /* font-size: 20px; */
+        /* font-size: 30px; */
+        line-height: 100%;
+        /* text-transform: uppercase; */
+        color: #38536a;
+        margin-bottom: 30px !important;
+        margin-top: 38px !important;
+        /* letter-spacing: .1em; */
+        font-weight: 900;
+        font-size: 46px;
     }
 }
 
