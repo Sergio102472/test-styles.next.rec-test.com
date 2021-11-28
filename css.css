@@ -70,7 +70,7 @@ html {
     -webkit-user-select: auto;
 }
 
-body {font-family: 'BootsSharp' , sans-serif;/* font-family: 'Montserrat', sans-serif; */font-weight: 300;font-size: 18px;color: #05054B;position: relative;}
+body {/* font-family: 'BootsSharp' , sans-serif; */font-family: 'Montserrat', sans-serif;font-weight: 300;font-size: 18px;color: #38536a;position: relative;}
 .vdd-viewport-width-narrow main .vdd-container {
     position: relative;
     max-width: 540px !important;
@@ -85,15 +85,19 @@ body {font-family: 'BootsSharp' , sans-serif;/* font-family: 'Montserrat', sans-
 
 .dx-theme-generic-typography {
     /* background-color: #fff; */
-    color: #05054B;
+    color: #38536a;
     /* font-weight: 400; */
     font-size: 18px;
-    font-family: 'BootsSharp' , sans-serif;
-    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'BootsSharp' , sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     /* line-height: 1.6; */
     line-height: 27px;
-    background: #F2F2F2;
+    background: #ffffff;
     font-weight: 300;
+    background-image: url(https://www.pd2x.com/wp-content/uploads/2021/05/Contact-us-hero.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 40vw auto;
 }
 
 .mt-4.d-flex.flex-row.align-items-stretch {}
@@ -116,11 +120,12 @@ form.mt-3 {
     font-weight: bold;
 }
 .dx-widget {
-    color: #05054B;
+    color: #38536a;
     font-weight: 400;
     font-size: 18px;
     /* font-weight: 500; */
-    font-family: 'BootsSharp' , sans-serif;
+    /* font-family: 'BootsSharp' , sans-serif; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .dx-pager.dx-light-mode .dx-page-sizes {
@@ -146,11 +151,11 @@ form.mt-3 {
 }
 
 span.dx-field-item-label-content {
-    background: #fff;
-    padding: 2px 8px 2px 8px;
-    line-height: 19px;
-    border-radius: 30px;
-    border-bottom: 1px solid #e3e3e3;
+    /* background: #fff; */
+    /* padding: 2px 8px 2px 8px; */
+    /* line-height: 19px; */
+    /* border-radius: 30px; */
+    /* border-bottom: 1px solid #e3e3e3; */
 }
 
 .dx-checkbox-normal .dx-field-item-label-content {
@@ -455,17 +460,28 @@ header.box-shadow {
 }
 /*  ----------------------------------------------------    Forms */
 .dx-field-item-required-mark {
-    color: #ff0600;
-    font-size: 18px;
+    color: #c9302c;
+    /* font-size: 18px; */
 }
 
 
 .dx-texteditor.dx-editor-outlined  {
     background: #F2F2F2;
     border: 1px solid #D0D0D0;
-    border-radius: 5px;
-    height: 50px;
+    /* border-radius: 5px; */
+    height: 45px;
     min-width: 200px;
+    color: #666;
+    /* padding: 0.75em; */
+    /* height: auto; */
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eaeaea;
+    border-radius: 2px;
+    background: #fafafa;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all .2s linear;
 }
 
 .dx-page-sizes .dx-show-invalid-badge.dx-selectbox.dx-textbox.dx-texteditor.dx-dropdowneditor-button-visible.dx-editor-outlined.dx-widget.dx-dropdowneditor.dx-dropdowneditor-field-clickable {
@@ -532,7 +548,7 @@ header.box-shadow {
     border-radius: 20px;
 }
 .dx-invalid.dx-texteditor {
-    border-color: #f00;
+    border-color: #990000;
 }
 .dx-invalid-message > .dx-overlay-content {
     color: #D8221F;
@@ -542,16 +558,16 @@ header.box-shadow {
     left: 0 !important;
     right: 0;
     top: 7px !important;
-    font-size: 14px;
+    font-size: 16px;
     padding: 2px 0 3px 3px;
     /* text-align: center; */
     /* margin: 0 15px 0 15px !important; */
     transform: translate(0px, 43px) !important;
     border: unset;
-    color: #D8221F;
+    color: #990000;
     /* line-height: 20px; */
-    font-family: 'BootsSharp' , sans-serif;
-    font-weight: 100;
+    /* font-family: 'BootsSharp' , sans-serif; */
+    font-weight: 400;
 }
 .dx-checkbox-container + .dx-invalid-message > .dx-overlay-content { min-width: 100px;}
 .dx-checkbox-container + .dx-invalid-message  .dx-invalid-message-content { right: auto;}
@@ -581,25 +597,26 @@ header.box-shadow {
     font-size: 18px;
     border-radius: 100px;
     min-height: 32px;
-    font-family: 'BootsSharp' , sans-serif;
-    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'BootsSharp' , sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
 .dx-widget input, .dx-widget textarea {
-    font-family: 'BootsSharp' , sans-serif;
-    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'BootsSharp' , sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.35715;
 }
 
 .dx-field-item-label-location-top {
     display: block;
-    padding: 12px 0 0px 11px;
-    margin-bottom: -7px;
-    font-size: 8px;
+    padding: 30px 0 5px 0;
+    /* margin-bottom: -7px; */
+    font-size: 16px;
     /* border-radius: 10px; */
     position: relative;
     z-index: 1;
+    /* font-weight: bold; */
 }
 .dx-dropdowneditor.dx-state-active .dx-dropdowneditor-icon,
 .dx-dropdowneditor.dx-state-hover:not(.dx-custom-button-hovered) .dx-dropdowneditor-icon {
@@ -721,10 +738,10 @@ main {
 .scrollable-control { overflow: unset;}
 .dx-field-item-help-text, .dx-field-item-label-text {
     color: #05054b;
-    font-family: 'BootsSharp' , sans-serif;
-    /* font-family: 'Montserrat', sans-serif; */
-    font-weight: 300;
-    font-size: 14px;
+    /* font-family: 'BootsSharp' , sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .dx-checkbox-normal .dx-field-item-label-text {
@@ -736,13 +753,14 @@ main {
 }
 
 .dx-field-item-help-text {
-    color: #7e7e7e;
+    /* color: #7e7e7e; */
     font-size: 14px;
     padding: 4px 0 0 0;
     font-weight: 300;
     font-style: normal;
-    letter-spacing: .4px;
+    /* letter-spacing: .4px; */
     line-height: 18px;
+    margin: 5px 0 0 0;
 }
 
 
@@ -803,14 +821,15 @@ main {
 .dx-theme-generic-typography .dx-font-m {
     /* font-weight: 400; */
     /* font-size: 20px; */
-    font-size: 30px;
-    line-height: 150%;
-    text-transform: uppercase;
-    color: #05054B;
+    /* font-size: 30px; */
+    /* line-height: 150%; */
+    /* text-transform: uppercase; */
+    color: #38536a;
     margin-bottom: 30px !important;
     margin-top: 38px !important;
-    letter-spacing: .1em;
-    font-weight: 500;
+    /* letter-spacing: .1em; */
+    font-weight: 900;
+    font-size: 32px;
 }
 
 nav .dx-font-m.text-center {
