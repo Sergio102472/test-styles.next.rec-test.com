@@ -87,13 +87,13 @@ body {/* font-family: 'BootsSharp' , sans-serif; */font-family: 'Montserrat', sa
     /* background-color: #fff; */
     color: #38536a;
     /* font-weight: 400; */
-    font-size: 18px;
+    font-size: 16px;
     /* font-family: 'BootsSharp' , sans-serif; */
     font-family: 'Montserrat', sans-serif;
     /* line-height: 1.6; */
     line-height: 27px;
     background: #ffffff;
-    font-weight: 300;
+    font-weight: 400;
     background-image: url(https://www.pd2x.com/wp-content/uploads/2021/05/Contact-us-hero.png);
     background-position: top right;
     background-repeat: no-repeat;
@@ -233,14 +233,14 @@ h1 {font-size: 36px;}
 
 
 
-p {font-size: 18px;color: #05054B;}
+p {/* font-size: 18px; *//* color: #05054B; */}
 
 
 /* links */
 .dx-theme-generic-typography a,
 a {
-    color:#0092cc;
-    color: #0067B2;
+    color: #38536a;
+    color: #38536a;
     font-size: 18px;
     /* text-decoration: underline; */
     line-height: 27px;
@@ -327,6 +327,25 @@ a.dx-button-mode-contained {
     padding: 8px 0px 4px 0px;
     font-family: 'BootsSharp' , sans-serif;
     transition: background .4s,color .4s,border .4s;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: #6d9dc5;
+    border-radius: 10px;
+    padding-top: 14px;
+    padding-right: 30px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    font-family: 'Mulish',sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 1;
+    text-transform: capitalize;
 }
 .dx-button-mode-contained .dx-icon {
     color: #fff;
