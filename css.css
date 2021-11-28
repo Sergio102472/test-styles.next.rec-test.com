@@ -614,7 +614,7 @@ header.box-shadow {
     /* background: hsl(0deg 100% 47%); */
     color: #000;
     font-size: 18px;
-    border-radius: 100px;
+    /* border-radius: 100px; */
     min-height: 32px;
     /* font-family: 'BootsSharp' , sans-serif; */
     font-family: 'Montserrat', sans-serif;
