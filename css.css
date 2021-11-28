@@ -897,12 +897,12 @@ div#formProfile-caption {
         /* overflow: unset; */
         /* padding: 0 0 40px 0; */
         margin: 0 auto 75px auto !important;
-        padding: 0px 0 50px 0 !important;
-        border: 0 solid #f2f2f2;
+        /* padding: 0px 0 50px 0 !important; */
+        /* border: 0 solid #f2f2f2; */
         /* border-radius: 5px; */
         /* background: #FFF; */
         /* width: 100%; */
-        /* max-width: 750px; */
+        max-width: 90%;
     }
     .dx-field-button-item {
         text-align: center !important;
@@ -921,13 +921,7 @@ div#formProfile-caption {
         font-weight: 900;
         font-size: 46px;
     }
-    .vdd-viewport {
-        overflow: unset;
-        position: relative;
-        /* max-width: 750px; */
-        margin: 0 auto;
-        padding: 0 20px;
-    }
+   
 }
 
 
