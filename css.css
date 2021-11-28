@@ -740,7 +740,7 @@ header {
 main {
     overflow: unset;
     padding: 0 0 40px 0;
-    margin: 0px auto 75px auto !important;
+    margin: 20px auto 75px auto !important;
     padding: 50px 0 !important;
     border: 1px solid #D0D0D0;
     border-radius: 5px;
