@@ -391,13 +391,13 @@ div#mainMenu {
     background: transparent;
 }
 header > nav {
-    padding: 25px 0;
+    /* padding: 25px 0; */
     border-bottom: 1px solid;
-    overflow: hidden;
-    background: rgb(255 255 255);
-    z-index: 10;
-    position: sticky;
-    top: 0;
+    /* overflow: hidden; */
+    /* background: rgb(255 255 255); */
+    /* z-index: 10; */
+    /* position: sticky; */
+    /* top: 0; */
     /* position: relative; */
 }
 
