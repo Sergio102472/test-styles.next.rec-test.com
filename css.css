@@ -94,10 +94,10 @@ body {/* font-family: 'BootsSharp' , sans-serif; */font-family: 'Montserrat', sa
     line-height: 27px;
     background: #ffffff;
     font-weight: 400;
-    background-image: url(https://www.pd2x.com/wp-content/uploads/2021/05/Contact-us-hero.png);
+    background-image: url(https://www.pd2x.com/wp-content/uploads/2021/05/why-pd2x-hero.png);
     background-position: top right;
     background-repeat: no-repeat;
-    background-size: 40vw auto;
+    background-size: 25vw auto;
 }
 
 .vdd-alert.alert-success {
@@ -744,7 +744,7 @@ main {
     padding: 50px 0 !important;
     border: 1px solid #D0D0D0;
     border-radius: 5px;
-    background: #FFF;
+    background: #ffffff;
     width: 100%;
     max-width: 750px;
     border-style: solid;
