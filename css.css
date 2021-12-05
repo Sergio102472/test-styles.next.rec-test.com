@@ -497,13 +497,13 @@ header.box-shadow {
 .dx-texteditor.dx-editor-outlined  {
     background: #F2F2F2;
     border: 1px solid #D0D0D0;
-    /* border-radius: 5px; */
-    height: 45px;
+    /*border-radius: 5px;
+    */height: 45px;
     min-width: 200px;
     color: #666;
-    /* padding: 0.75em; */
-    /* height: auto; */
-    border-width: 1px;
+    /*padding: 0.75em;
+    *//*height: auto;
+    */border-width: 1px;
     border-style: solid;
     border-color: #eaeaea;
     border-radius: 2px;
@@ -511,6 +511,14 @@ header.box-shadow {
     box-shadow: none;
     box-sizing: border-box;
     transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
 }
 
 .dx-page-sizes .dx-show-invalid-badge.dx-selectbox.dx-textbox.dx-texteditor.dx-dropdowneditor-button-visible.dx-editor-outlined.dx-widget.dx-dropdowneditor.dx-dropdowneditor-field-clickable {
@@ -528,8 +536,12 @@ header.box-shadow {
     height: 100px;
     background: #f2f2f2;
     border-radius: 5px;
-    /* margin: 44px 0 0 0; */
-    border: 4px dashed #000;
+    /*margin: 44px 0 0 0;
+    */border: 4px dashed #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 #card-number, #card-date, #card-code, #card-postal
@@ -559,8 +571,12 @@ header.box-shadow {
 }
 .dx-checkbox-icon {
     border: 1px solid #0067b2;
-    /* background: #0067B2; */
-    border-radius: 3px;
+    /*background: #0067B2;
+    */border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
 }
 
 .dx-checkbox-checked .dx-checkbox-icon {
@@ -589,14 +605,18 @@ header.box-shadow {
     top: 7px !important;
     font-size: 16px;
     padding: 2px 0 3px 3px;
-    /* text-align: center; */
-    /* margin: 0 15px 0 15px !important; */
-    transform: translate(0px, 43px) !important;
+    /*text-align: center;
+    *//*margin: 0 15px 0 15px !important;
+    */transform: translate(0px, 43px) !important;
     border: unset;
     color: #990000;
-    /* line-height: 20px; */
-    /* font-family: 'BootsSharp' , sans-serif; */
-    font-weight: 400;
+    /*line-height: 20px;
+    *//*font-family: 'BootsSharp' , sans-serif;
+    */font-weight: 400;
+    -webkit-transform: translate(0px, 43px) !important;
+    -moz-transform: translate(0px, 43px) !important;
+    -ms-transform: translate(0px, 43px) !important;
+    -o-transform: translate(0px, 43px) !important;
 }
 .dx-checkbox-container + .dx-invalid-message > .dx-overlay-content { min-width: 100px;}
 .dx-checkbox-container + .dx-invalid-message  .dx-invalid-message-content { right: auto;}
@@ -652,15 +672,25 @@ header.box-shadow {
   background-color: transparent;
   border-color: transparent;
   border-radius:0 50px 50px 0;
-  /* color: #fff; */
+  /*color: #fff;
+  */-webkit-border-radius:0 50px 50px 0;
+  -moz-border-radius:0 50px 50px 0;
+  -ms-border-radius:0 50px 50px 0;
+  -o-border-radius:0 50px 50px 0;
+  -webkit-border-radius:0 50px 50px 0;
 }
 .dx-dropdowneditor-button.dx-state-active .dx-dropdowneditor-icon,
 .dx-dropdowneditor.dx-dropdowneditor-active .dx-dropdowneditor-icon {
   background-color: transparent;
   border-color: transparent;
-  /* color: #fff; */
+  /*color: #fff;
+  */
   opacity: 1;
   border-radius:0 50px 50px 0;
+  -webkit-border-radius:0 50px 50px 0;
+  -moz-border-radius:0 50px 50px 0;
+  -ms-border-radius:0 50px 50px 0;
+  -o-border-radius:0 50px 50px 0;
 }
 .dx-dropdowneditor-icon {
     background-position: center;
@@ -672,6 +702,10 @@ header.box-shadow {
     height: 100%;
     text-align: center;
     border-radius: 3px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 .dx-dropdowneditor-icon::before {
     content: "";
@@ -752,8 +786,16 @@ main {
     border-color: #F2F3FA;
     box-shadow: 0px 30px 70px -24px rgb(0 0 0 / 16%);
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    /* padding: 64px 64px 64px 64px; */
-    border-radius: 16px 16px 16px 16px;
+    /*padding: 64px 64px 64px 64px;
+    */border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    -moz-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    -ms-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    -o-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 .vdd-viewport {
     overflow: unset;
