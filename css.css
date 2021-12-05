@@ -133,7 +133,9 @@ form.mt-3 {
     /* font-family: 'BootsSharp' , sans-serif; */
     font-family: 'Montserrat', sans-serif;
 }
-
+.dx-icon-home::before {
+    content: url(https://pd2x.com/wp-content/uploads/2021/05/cropped-PD2x-logo-160x64.png);
+}
 .dx-radiogroup.dx-radiogroup-vertical .dx-item.dx-radiobutton {
     margin: 0 0 30px 0;
 }
