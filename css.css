@@ -617,6 +617,7 @@ header.box-shadow {
     -moz-transform: translate(0px, 43px) !important;
     -ms-transform: translate(0px, 43px) !important;
     -o-transform: translate(0px, 43px) !important;
+
 }
 .dx-checkbox-container + .dx-invalid-message > .dx-overlay-content { min-width: 100px;}
 .dx-checkbox-container + .dx-invalid-message  .dx-invalid-message-content { right: auto;}
@@ -702,10 +703,7 @@ header.box-shadow {
     height: 100%;
     text-align: center;
     border-radius: 3px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+
 }
 .dx-dropdowneditor-icon::before {
     content: "";
@@ -788,14 +786,14 @@ main {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     /*padding: 64px 64px 64px 64px;
     */border-radius: 16px 16px 16px 16px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
     -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     -moz-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     -ms-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     -o-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 .vdd-viewport {
     overflow: unset;
