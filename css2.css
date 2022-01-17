@@ -396,7 +396,7 @@ header.box-shadow {
 .dx-toolbar .dx-toolbar-label {
     font-size: 22px !important;
     text-transform: initial;
-    font-weight: 600;
+    /* font-weight: 600; */
     max-width: 100% !important;
 }
 .dx-toolbar-menu-section .dx-toolbar-menu-custom .dx-item-content a {
@@ -677,7 +677,7 @@ header {
 main {
     overflow: unset;
     padding: 0 0 40px 0;
-    margin: 75px auto 75px auto !important;
+    margin: -3px auto 75px auto !important;
     padding: 50px 0 !important;
     border: 1px solid #D0D0D0;
     border-radius: 5px;
@@ -783,9 +783,9 @@ main {
     line-height: 150%;
     text-transform: uppercase;
     color: #05054B;
-    margin-bottom: 30px !important;
-    margin-top: 38px !important;
-    letter-spacing: .1em;
+    margin-bottom: 7px !important;
+    margin-top: 12px !important;
+    /* letter-spacing: .1em; */
     font-weight: 500;
 }
 
