@@ -123,6 +123,10 @@ form.mt-3 {
     font-family: 'BootsSharp' , sans-serif;
 }
 
+.dx-toolbar .dx-toolbar-items-container {
+    height: 50px;
+}
+
 .dx-pager.dx-light-mode .dx-page-sizes {
     /* min-width: 40%; */
 }
@@ -345,8 +349,8 @@ a.silent-link {
     /* overflow: hidden; */
     /* border: 2px solid #ffffff; */
     /* border-radius: 50px; */
-    width: 100px;
-    height: 40px;
+    width: 120px;
+    height: 50px;
     /* box-shadow: 0 0 3px 0px black; */
 }
 
@@ -364,7 +368,7 @@ div#mainMenu {
     background: transparent;
 }
 header > nav {
-    padding: 25px 0;
+    padding: 10px 0;
     border-bottom: 1px solid;
     overflow: hidden;
     background: rgb(255 255 255);
@@ -390,10 +394,10 @@ header.box-shadow {
 }
 
 .dx-toolbar .dx-toolbar-label {
-    font-size: 18px !important;
-    text-transform: uppercase;
+    font-size: 22px !important;
+    text-transform: initial;
     font-weight: 600;
-    width: 100% !important;
+    max-width: 100% !important;
 }
 .dx-toolbar-menu-section .dx-toolbar-menu-custom .dx-item-content a {
     display: block !important;
