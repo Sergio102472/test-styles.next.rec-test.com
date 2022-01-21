@@ -505,7 +505,7 @@ header.box-shadow {
 
 
 .dx-texteditor.dx-editor-outlined  {
-    background: #F2F2F2;
+    background: #ffffff;
     border: 1px solid #D0D0D0;
     border-radius: 5px;
     height: 40px;
@@ -585,7 +585,7 @@ header.box-shadow {
     border: 1px solid #f00;
     left: 0 !important;
     right: 0;
-    top: 7px !important;
+    top: 0px !important;
     font-size: 14px;
     padding: 2px 0 3px 3px;
     /* text-align: center; */
@@ -619,11 +619,11 @@ header.box-shadow {
 
 .dx-texteditor-input {
     margin: 0;
-    padding: 12px 16px 11px;
+    /* padding: 12px 16px 11px; */
     /* background: hsl(0deg 100% 47%); */
     color: #000;
     /* font-size: 18px; */
-    border-radius: 100px;
+    border-radius: 5px;
     min-height: 32px;
     font-family: 'BootsSharp' , sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
@@ -739,8 +739,8 @@ main {
     overflow: unset;
     padding: 0 0 40px 0;
     margin: -3px auto 75px auto !important;
-    padding: 50px 0 !important;
-    border: 1px solid #D0D0D0;
+    padding: 0px 0 !important;
+    border: 0px solid #D0D0D0;
     border-radius: 5px;
     background: #FFF;
     width: 100%;
@@ -849,7 +849,7 @@ main {
     text-transform: uppercase;
     color: #05054B;
     margin-bottom: 7px !important;
-    margin-top: 12px !important;
+    margin-top: 25px !important;
     /* letter-spacing: .1em; */
     font-weight: 500;
 }
