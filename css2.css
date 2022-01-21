@@ -297,8 +297,8 @@ p {font-size: 16px;color: #05054B;}
 /* links */
 .dx-theme-generic-typography a,
 a {
-    color:#0092cc;
-    color: #0067B2;
+    /* color:#0092cc; */
+    color: #05054B;
     font-size: 18px;
     /* text-decoration: underline; */
     line-height: 27px;
@@ -557,7 +557,7 @@ header.box-shadow {
     content: "";
 }
 .dx-checkbox-icon {
-    border: 1px solid #0067b2;
+    border: 1px solid #05054b;
     /* background: #0067B2; */
     border-radius: 3px;
 }
@@ -566,7 +566,7 @@ header.box-shadow {
     font: 16px/16px DXIcons;
     color: #ffffff;
     text-align: center;
-    background: #0067B2;
+    background: #05054b;
 }
 .dx-device-phone .identity-form {
     /* margin: 20px auto; */
@@ -756,14 +756,14 @@ main {
     /* font-size: 16px; */
 }
 .scrollable-control { overflow: unset;}
-.dx-field-item-help-text, .dx-field-item-label-text {
+label, .dx-field-item-help-text, .dx-field-item-label-text {
     /* color: #05054b; */
     font-family: 'BootsSharp' , sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
     /* font-weight: 300; */
     /* font-size: 14px; */
     color: #333;
-    font-size: 14px;
+    font-size: 15px;
     box-sizing: border-box;
     font-weight: bold;
 }
@@ -777,8 +777,8 @@ main {
 }
 
 .dx-field-item-help-text {
-    color: #7e7e7e;
-    font-size: 14px;
+    color: #616161;
+    font-size: 0.78rem;
     padding: 4px 0 0 0;
     font-weight: 300;
     font-style: normal;
