@@ -136,7 +136,7 @@ body {
     /* background-color: #fff; */
     /* color: #05054B; */
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'BootsSharp' , sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
     /* line-height: 1.6; */
@@ -345,11 +345,11 @@ a {
 div.dx-button-mode-contained,
 a.dx-button-mode-contained {
     /* background-color: #fff; */
-    border-color: #0067B2;
+    border-color: #05054b;
     /* color: #0067B2; */
     /* text-transform: uppercase; */
     /* .. */
-    background-color: #0067B2;
+    background-color: #05054b;
     border-color: transparent;
     color: #fff;
     text-transform: uppercase;
@@ -359,6 +359,7 @@ a.dx-button-mode-contained {
     padding: 8px 0px 4px 0px;
     font-family: 'BootsSharp' , sans-serif;
     transition: background .4s,color .4s,border .4s;
+    font-weight: 600;
 }
 .dx-button-mode-contained .dx-icon {
     color: #fff;
@@ -368,13 +369,14 @@ a.dx-button-mode-contained {
 
 div.dx-button-mode-contained,
 a.dx-button-mode-contained:hover {
-    background-color: #0067B2;
-    border-color: #0067B2;
+    background-color: #05054b;
+    border-color: #05054b;
 }
 
 .dx-button-mode-contained.dx-state-hover {
-    background-color: #05054B !important;
+    background-color: #fff !important;
     border-color: #05054B;
+    color: #05054B;
 }
 
 .dx-button-mode-contained.dx-button-success.dx-state-hover {
