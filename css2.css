@@ -132,11 +132,11 @@ body {
     overflow: unset;
 }
 
-.dx-theme-generic-typography {
+.dx-widget, .dx-theme-generic-typography {
     /* background-color: #fff; */
     /* color: #05054B; */
     font-weight: 400;
-    font-size: 14px;
+    /* font-size: 16px; */
     font-family: 'BootsSharp' , sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
     /* line-height: 1.6; */
@@ -313,15 +313,15 @@ a {
 /* Button Primary */
 .dx-button-mode-contained.dx-button-success,
 .dx-button-mode-contained.dx-button-default {
-    background-color: #0092CC;
-    border-color: transparent;
+    background-color: #05054b;
+    border-color: #05054b;
     color: #fff;
     text-transform: uppercase;
     font-size: 18px;
     line-height: 23px;
-    background: #0067B2;
+    background: #05054b;
     border-radius: 5px;
-    border: 1px solid #0067B2;
+    border: 1px solid #05054b;
     padding: 8px 0px 3px 0px;
     color: #FFF;
     display: inline-block;
@@ -758,12 +758,12 @@ main {
 .scrollable-control { overflow: unset;}
 .dx-field-item-help-text, .dx-field-item-label-text {
     /* color: #05054b; */
-    /* font-family: 'BootsSharp' , sans-serif; */
+    font-family: 'BootsSharp' , sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
     /* font-weight: 300; */
     /* font-size: 14px; */
     color: #333;
-    font-size: .9rem;
+    font-size: 14px;
     box-sizing: border-box;
     font-weight: bold;
 }
@@ -846,7 +846,7 @@ main {
     /* font-size: 20px; */
     font-size: 30px;
     line-height: 150%;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #05054B;
     margin-bottom: 7px !important;
     margin-top: 25px !important;
