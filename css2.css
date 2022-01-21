@@ -18,7 +18,7 @@
     font-display: block;
   } */
 
-  /* @font-face {
+  @font-face {
     font-family: BootsSharp;
     src: url(fonts/BootsSharp-Light.eot);
     src: url(fonts/BootsSharp-Light.eot?#iefix) format('embedded-opentype'),url(fonts/BootsSharp-Light.woff2) format('woff2'),url(fonts/BootsSharp-Light.woff) format('woff'),url(fonts/BootsSharp-Light.ttf) format('truetype'),url(fonts/BootsSharp-Light.svg#Boots+Sharp+Light) format('svg');
@@ -40,13 +40,13 @@
     src: url(fonts/BootsSharp-Bold.eot?#iefix) format('embedded-opentype'),url(fonts/BootsSharp-Bold.woff2) format('woff2'),url(fonts/BootsSharp-Bold.woff) format('woff'),url(fonts/BootsSharp-Bold.ttf) format('truetype'),url(fonts/BootsSharp-Bold.svg#Boots+Sharp+Bold) format('svg');
     font-weight: 600;
     font-style: normal
-} */
+}
 
 
 
 
 
-@font-face {
+/* @font-face {
     font-family: 'BootsSharp';
     src: url(https://assets.v7-io.invisionapp.com/assets/A_MGFjZjlkZDY2YjhlM2JmOXUFu7rJUhXr58Gi-PXDV0gapEk0bDfG8bUYVfgbh8zqDYOVNrE4_xJIUK1HqqTWqAEzdfUXWDsUZ3PHE0wX_fX1TlDQDE4NWltYMiCtDkUuRcvTEAxSn0iQgdO1-3-ETA==);
     font-weight: bold;
@@ -65,7 +65,7 @@
     src: url(https://assets.v7-io.invisionapp.com/assets/A_MGFjZjlkZDY2YjhlM2JmOfrcYnDJV4myRjx1GDTxexx7MKhJa_RGZqXrMjUprdrDe5kZgQXGc-t5bq2zgWTGbCohs9u_25S5LEuhSrgtpR69_l8it5EwF-8xQmEteU3OsT7bowsyQDzeLnWQ4bvIpw==);
     font-weight: 400;
     font-style: normal;
-   }
+   } */
 
 
 
