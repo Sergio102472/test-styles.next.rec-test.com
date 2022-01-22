@@ -157,6 +157,10 @@ body {
     line-height: 1.5;
 }
 
+#card-form {
+    margin-bottom: 50px;
+}
+
 .dx-radiobutton-icon-checked .dx-radiobutton-icon-dot {
     display: block;
     margin-top: -16px;
@@ -198,6 +202,7 @@ form.mt-3 {
 }
 .text-nowrap {
     font-weight: bold;
+    color: #B8237B;
 }
 
 #shop-items .dx-item .text-nowrap {
@@ -423,6 +428,10 @@ a.dx-button-mode-contained:hover {
     border-color: #05054b;
 }
 
+.vdd-page-checkout #discard-order {
+    margin-top: -162px;
+}
+
 .dx-button-mode-contained.dx-state-hover {
     background-color: #fff !important;
     border-color: #05054B !important;
@@ -563,6 +572,10 @@ header.box-shadow {
     min-width: 200px;
 }
 
+.vdd-page-checkout .d-flex.flex-row.mt-2.vdd-hide-invalid-badge > div {
+    min-width: 30%;
+}
+
 .dx-page-sizes .dx-show-invalid-badge.dx-selectbox.dx-textbox.dx-texteditor.dx-dropdowneditor-button-visible.dx-editor-outlined.dx-widget.dx-dropdowneditor.dx-dropdowneditor-field-clickable {
     width: 62px;
     min-width: 100px;
@@ -584,8 +597,8 @@ header.box-shadow {
 
 #card-number, #card-date, #card-code, #card-postal
  {
-    background: #F2F2F2;
-    border: 1px solid #00a4e6;
+    background: #fff;
+    border: 1px solid #05054b;
     /* border-radius: 100px; */
     height: 41px;
     padding: 12px 12px 12px !important;
