@@ -122,7 +122,7 @@ body {
 
 .vdd-viewport-width-narrow main .vdd-container {
     position: relative;
-    max-width: 540px !important;
+    max-width: 750px !important;
     margin: 0 auto;
     padding: 1em !important;
     overflow: unset;
@@ -828,11 +828,12 @@ label, .dx-field-item-help-text, .dx-field-item-label-text {
 
 /* PAGE PURCHASE A TEST*/
 #shop-item-price {
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 #shop-item-price .text-nowrap {
     white-space: nowrap !important;
-    font-size: 23px;
+    font-size: 30px;
+    color: #B8237B;
 }
 
 /* PAGE THANK YOU! */
