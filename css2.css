@@ -5,7 +5,7 @@
 
 
 
-/* @font-face {
+@font-face {
     font-family: 'icomoon-boots';
     src:  url('https://d1azc1qln24ryf.cloudfront.net/82534/Boots/icomoon-boots.eot?j360k6');
     src:  url('https://d1azc1qln24ryf.cloudfront.net/82534/Boots/icomoon-boots.eot?j360k6#iefix') format('embedded-opentype'),
@@ -16,7 +16,7 @@
     font-weight: normal;
     font-style: normal;
     font-display: block;
-  } */
+  }
 
   @font-face {
     font-family: BootsSharp;
