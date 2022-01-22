@@ -151,6 +151,13 @@ body {
     line-height: 1.5;
 }
 
+.dx-form-group-caption {
+    font-size: 20px;
+    /* font-size: 1.72rem; */
+    color: #004990;
+    font-weight: 400;
+}
+
 .mt-4.d-flex.flex-row.align-items-stretch {}
 
 form.mt-3 {
