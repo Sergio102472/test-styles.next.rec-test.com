@@ -157,8 +157,20 @@ body {
     line-height: 1.5;
 }
 
+.dx-radiobutton-icon-checked .dx-radiobutton-icon-dot {
+    display: block;
+    margin-top: -16px;
+    margin-left: 6px;
+    width: 10px;
+    height: 10px;
+    background: #05054b;
+    content: "";
+    border-radius: 5px;
+}
+
 #shop-item-info span#shop-item-name {
     color: #05054b;
+    font-weight: 400;
 }
 
 .dx-form-group-caption {
