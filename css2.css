@@ -200,7 +200,7 @@ form.mt-3 {
 .dx-theme-border-color {
     border-color: #d0d0d0 !important;
 }
-.text-nowrap {
+.text-nowrap, .dx-icon {
     font-weight: bold;
     color: #B8237B;
 }
@@ -218,6 +218,11 @@ form.mt-3 {
     /* font-size: 18px; */
     /* font-weight: 500; */
     /* font-family: 'BootsSharp' , sans-serif; */
+}
+
+span.dx-checkbox-text {
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .dx-button-mode-outlined.dx-button-default.dx-state-focused, .dx-button-mode-outlined.dx-button-default.dx-state-hover {
@@ -313,7 +318,7 @@ div#formChangeEmail {}
 div > strong {
     font-weight: bolder;
     /* margin: 10px 0 0px 0; */
-    padding: 5px 0 0 0;
+    /* padding: 5px 0 0 0; */
     display: inline-block;
     /* border-top: 5px solid #e6e6e6; */
 }
