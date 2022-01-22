@@ -947,6 +947,12 @@ a.text-monospace.dx-user-select {
     font-weight: 500;
 }
 
+.text-monospace.dx-user-select {
+    display: block;
+    font-size: calc(.8rem + 1.23vw);
+    color: #B8237B;
+}
+
 nav .dx-font-m.text-center {
     margin-bottom: 17px;
     margin-top: 0;
