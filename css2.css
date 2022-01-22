@@ -355,7 +355,7 @@ a {
     /* color:#0092cc; */
     color: #05054B;
     font-size: 18px;
-    /* text-decoration: underline; */
+    text-decoration: underline;
     line-height: 27px;
     font-family: 'BootsSharp' , sans-serif;
     font-weight: 300;
@@ -416,7 +416,21 @@ a.dx-button-mode-contained {
     transition: background .4s,color .4s,border .4s;
     font-weight: 600;
 }
+
+div.dx-button-mode-contained:hover, a.dx-button-mode-contained:hover {
+    background-color: #ffffff;
+    border-color: #05054b;
+    /* color: #05054b; */
+}
+
+div.dx-button-mode-contained:hover, a.dx-button-mode-contained:hover {
+    background-color: #ffffff;
+}
+
 .dx-button-mode-contained .dx-icon {
+    color: #ffffff;
+}
+.dx-button-mode-contained:hover .dx-icon {
     color: #fff;
 }
 
@@ -881,17 +895,24 @@ label, .dx-field-item-help-text, .dx-field-item-label-text {
 
 /* PAGE THANK YOU! */
 
-.dx-font-l.text-monospace.dx-user-select {
+.dx-font-l.text-monospace {
     background: #efefef;
-    color: #ff0000;
-    font-weight: 300;
-    font-size: 30px;
+    color: #B8237B;
+    font-weight: 600;
+    /* font-size: 30px; */
     /* font-family: 'Montserrat', sans-serif !important; */
     border-radius: 5px;
     width: auto;
     /* display: inline; */
     padding: 30px 6px;
     margin: 40px 0 !important;
+    font-family: "BootsSharp",Arial,sans-serif;
+}
+
+a.text-monospace.dx-user-select {
+    color: #B8237B;
+    font-weight: 600;
+    font-family: "BootsSharp",Arial,sans-serif;
 }
 
 /* PAGE FAMILY / GROUP */
