@@ -185,6 +185,19 @@ form.mt-3 {
     /* font-family: 'BootsSharp' , sans-serif; */
 }
 
+.dx-button-mode-outlined.dx-button-default.dx-state-focused, .dx-button-mode-outlined.dx-button-default.dx-state-hover {
+    background-color: #fff;
+    border-color: #05054b;
+    color: #05054b;
+}
+
+.dx-button-mode-outlined.dx-button-default {
+    background-color: #c9e3ff;
+    border-color: #05054b;
+    color: #05054b;
+    font-weight: 600;
+}
+
 .dx-toolbar .dx-toolbar-items-container {
     height: 50px;
 }
