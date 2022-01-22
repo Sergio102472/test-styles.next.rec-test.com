@@ -915,8 +915,8 @@ label, .dx-field-item-help-text, .dx-field-item-label-text {
     border-radius: 5px;
     width: auto;
     /* display: inline; */
-    padding: 30px 6px;
-    margin: 40px 0 !important;
+    padding: 6px 6px;
+    margin: 20px 0 !important;
     font-family: "BootsSharp",Arial,sans-serif;
 }
 
@@ -958,7 +958,7 @@ a.text-monospace.dx-user-select {
 
 .text-monospace.dx-user-select {
     display: block;
-    font-size: calc(.8rem + 1.23vw);
+    font-size: calc(.7rem + 1.23vw);
     color: #B8237B;
 }
 
