@@ -157,6 +157,10 @@ body {
     line-height: 1.5;
 }
 
+.text-monospace {
+    color: #B8237B;
+}
+
 #card-form {
     margin-bottom: 50px;
 }
@@ -945,6 +949,11 @@ a.text-monospace.dx-user-select {
     margin-top: 25px !important;
     /* letter-spacing: .1em; */
     font-weight: 500;
+}
+
+.vdd-uploader-container .vdd-uploader-drop-area .vdd-uploader-drop-label {
+    margin-bottom: 7px !important;
+    margin-top: 4px !important;
 }
 
 .text-monospace.dx-user-select {
