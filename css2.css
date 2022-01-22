@@ -331,16 +331,17 @@ h5,
 h6 {
     font-family: 'BootsSharp' , sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
-    font-size: 26px; color: #05054B;
+    font-size: 26px;
+    color: #05054b;
     padding: 15px 0 10px 0;
 }
 
-h1 {font-size: 36px;}
-h2 {font-size: 36px;}
-h3 {font-size: 24px;}
-h4 {font-size: 22px;}
-h5 {font-size: 18px;}
-h1 {font-size: 36px;}
+.dx-theme-generic-typography h1 {font-size: 36px;}
+.dx-theme-generic-typography h2 {font-size: 36px;}
+.dx-theme-generic-typography h3 {font-size: 24px;}
+.dx-theme-generic-typography h4 {font-size: 22px;}
+.dx-theme-generic-typography h5 {font-size: 18px;}
+.dx-theme-generic-typography h1 {font-size: 36px;}
 
 .dx-theme-generic-typography h5 + .ml-3  {margin-left: 0 !important;}
 
