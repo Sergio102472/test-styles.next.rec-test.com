@@ -207,6 +207,10 @@ form.mt-3 {
   /* font-family: 'BootsSharp' , sans-serif; */
 }
 
+.dx-toolbar-after, .dx-toolbar-before {
+    position: relative;
+}
+
 .dx-item.dx-list-item.dx-toolbar-menu-custom {
     border-bottom: 1px solid #e6e6e6;
 }
@@ -258,9 +262,41 @@ span.dx-checkbox-text {
   font-weight: 600;
 }
 
-.dx-toolbar .dx-toolbar-items-container {
+.dx-device-mobile .dx-toolbar .dx-toolbar-items-container, .dx-toolbar .dx-toolbar-items-container {
   height: 50px;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
 }
+
+.dx-device-mobile .dx-toolbar .dx-toolbar-items-container {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+}
+
+.dx-device-mobile .dx-toolbar .dx-toolbar-items-container .dx-toolbar-center {
+    margin: 0;
+}
+
+.dx-toolbar-items-container {}
 
 .dx-radiogroup-horizontal {
   border: 1px solid #D0D0D0;
@@ -314,10 +350,10 @@ span.dx-checkbox-text {
 .dx-overlay-content.dx-popup-normal.dx-resizable {
     width: 100% !important;
     left: 0px !important;
-    top: 72px !important;
+    top: 61px !important;
     height: calc(100vh - 72px ) !important;
     /* transform: none !important; */
-    transform: translate(0px)  scale(1)  !important;
+    transform: translate(0)  scale(1)  !important;
     max-width: 100%;
     background: rgb(255 255 255 / 75%);
 }
@@ -554,7 +590,7 @@ a.dx-button-mode-contained:hover {
   /* overflow: hidden; */
   /* border: 2px solid $white-color; */
   /* border-radius: 50px; */
-  width: 120px;
+  /* width: 120px; */
   height: 50px;
   /* box-shadow: 0 0 3px 0px black; */
 }
@@ -598,11 +634,11 @@ header.box-shadow {
 }
 
 .dx-dropdownmenu.dx-dropdownmenu-button.dx-button.dx-button-normal.dx-widget.dx-button-has-icon.dx-button-mode-text {
-  /* background: rgb(226 226 226 / 58%); */
+  background: rgb(226 226 226 / 58%);
   color: #fff;
   /* border-radius: 50px; */
-  margin: -10px 0 0;
-  padding: 11px;
+  margin: 0px 0 0;
+  padding: 0px;
 }
 
 .dx-toolbar .dx-toolbar-label {
