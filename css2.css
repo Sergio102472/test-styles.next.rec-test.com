@@ -490,7 +490,7 @@ a.dx-button-mode-contained:hover {
 }
 
 /* Header */
-.dx-toolbar-before,
+.dx-item-content.dx-toolbar-item-content,
 a.silent-link {
   display: -webkit-box;
   display: -ms-flexbox;
