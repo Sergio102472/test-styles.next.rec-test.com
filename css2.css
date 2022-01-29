@@ -539,7 +539,7 @@ a.silent-link img {
   height: 100%;
 }
 
-.vdd-viewport-width-narrow header nav .vdd-container {
+.vdd-viewport-width-normal .vdd-container, .vdd-viewport-width-narrow header nav .vdd-container {
   /* position: relative; */
   max-width: 764px !important;
   /* margin: 0px auto; */
