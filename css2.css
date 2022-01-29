@@ -293,7 +293,8 @@ span.dx-checkbox-text {
 }
 
 .dx-device-mobile .dx-toolbar .dx-toolbar-items-container .dx-toolbar-center {
-    margin: 0;
+    margin: 0 !important;
+    order: -1;
 }
 
 .dx-toolbar-items-container {}
