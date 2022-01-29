@@ -307,6 +307,14 @@ span.dx-checkbox-text {
   max-width: 500px;
 }
 
+.dx-overlay-content.dx-popup-normal.dx-resizable {
+    width: 100% !important;
+    left: 0px !important;
+    top: 72px !important;
+    height: calc(100vh - 72px ) !important;
+    transform: none !important;
+}
+
 .dx-popup-bottom.dx-toolbar .dx-toolbar-after {
   -webkit-column-gap: 15px;
   column-gap: 15px;
@@ -521,16 +529,16 @@ a.dx-button-mode-contained:hover {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   /* justify-content: center; */
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   /* overflow: hidden; */
   /* border: 2px solid $white-color; */
   /* border-radius: 50px; */
