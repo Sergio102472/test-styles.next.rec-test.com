@@ -207,6 +207,10 @@ form.mt-3 {
   /* font-family: 'BootsSharp' , sans-serif; */
 }
 
+.dx-layout-manager .dx-field-item:not(.dx-first-row) {
+    padding-top: 24px;
+}
+
 .dx-checkbox-container {
     overflow: hidden;
     white-space: nowrap;
@@ -305,22 +309,22 @@ span.dx-checkbox-text {
 
 .dx-popup-bottom.dx-toolbar .dx-toolbar-after {
   -webkit-column-gap: 15px;
-          column-gap: 15px;
+  column-gap: 15px;
   padding-left: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* flex-direction: row-reverse; */
+  flex-direction: row-reverse;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-line-pack: stretch;
-      align-content: stretch;
+  align-content: stretch;
 }
 
 div > strong {
@@ -723,17 +727,17 @@ header.box-shadow {
   left: 0 !important;
   right: 0;
   top: 0px !important;
-  font-size: 12px;
+  font-size: 14px;
   padding: 0px 0 0px 3px;
   /* text-align: center; */
   margin: -2px 0 !important;
   -webkit-transform: translate(0px, 43px) !important;
-          transform: translate(0px, 43px) !important;
+  transform: translate(0px, 43px) !important;
   border: unset;
   color: #D8221F;
   /* line-height: 20px; */
   font-family: 'BootsSharp' , sans-serif;
-  font-weight: 100;
+  font-weight: 600;
 }
 
 .dx-checkbox-container + .dx-invalid-message > .dx-overlay-content {
