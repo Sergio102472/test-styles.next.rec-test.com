@@ -203,6 +203,10 @@ form.mt-3 {
   /* font-family: 'BootsSharp' , sans-serif; */
 }
 
+.dx-field-item-content.dx-field-item-content-location-bottom .align-items-center {
+    align-items: start !important;
+}
+
 .dx-layout-manager.dx-layout-manager-one-col .dx-box-item:not(:first-child) .dx-single-column-item-content > .dx-field-item {
   padding-top: 15px;
 }
@@ -486,6 +490,7 @@ a.dx-button-mode-contained:hover {
 }
 
 /* Header */
+.dx-toolbar-before,
 a.silent-link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -509,7 +514,7 @@ a.silent-link {
   height: 50px;
   /* box-shadow: 0 0 3px 0px black; */
 }
-
+.dx-toolbar .dx-toolbar-label img,
 a.silent-link img {
   height: 100%;
 }
@@ -1009,6 +1014,16 @@ div#formProfile-caption {
   /* margin-bottom: 40px !important; */
   margin-top: 0 !important;
 }
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 500px) {
   .d-flex.flex-row.mt-2.vdd-hide-invalid-badge > div {
