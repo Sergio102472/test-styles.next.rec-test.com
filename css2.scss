@@ -249,7 +249,9 @@ form.mt-3 {
     /* font-weight: 500; */
     /* font-family: 'BootsSharp' , sans-serif; */
 }
-
+.dx-layout-manager.dx-layout-manager-one-col .dx-box-item:not(:first-child) .dx-single-column-item-content > .dx-field-item {
+    padding-top: 15px;
+}
 span.dx-checkbox-text {
     font-size: 16px;
     font-weight: 300;
@@ -694,10 +696,10 @@ header.box-shadow {
     left: 0 !important;
     right: 0;
     top: 0px !important;
-    font-size: 14px;
-    padding: 2px 0 3px 3px;
+font-size: 12px;
+    padding: 0px 0 0px 3px;
     /* text-align: center; */
-    /* margin: 0 15px 0 15px !important; */
+    margin: -2px 0 !important;
     transform: translate(0px, 43px) !important;
     border: unset;
     color: #D8221F;
