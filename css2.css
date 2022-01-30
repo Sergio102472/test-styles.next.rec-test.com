@@ -262,6 +262,9 @@ span.dx-checkbox-text {
   font-weight: 600;
 }
 
+
+
+
 .dx-device-mobile .dx-toolbar .dx-toolbar-items-container, .dx-toolbar .dx-toolbar-items-container {
   height: 50px;
   align-items: center;
@@ -274,6 +277,12 @@ span.dx-checkbox-text {
   align-items: stretch;
   align-content: stretch;
 }
+
+.vdd-page-signin .dx-device-mobile .dx-toolbar .dx-toolbar-items-container,
+.vdd-page-signin .dx-toolbar .dx-toolbar-items-container
+{flex-direction: row;}
+
+
 
 .dx-device-mobile .dx-toolbar .dx-toolbar-items-container {
     /* display: flex; */
