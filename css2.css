@@ -270,7 +270,7 @@ span.dx-checkbox-text {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: stretch;
   align-content: stretch;
 }
