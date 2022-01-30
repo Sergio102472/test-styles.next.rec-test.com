@@ -654,7 +654,7 @@ header.box-shadow {
 .dx-toolbar .dx-toolbar-label {
   font-size: 22px !important;
   text-transform: initial;
-  /* font-weight: 600; */
+  font-weight: 600;
   max-width: 100% !important;
 }
 
