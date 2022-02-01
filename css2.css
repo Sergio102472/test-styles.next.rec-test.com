@@ -616,7 +616,7 @@ a.silent-link img {
 
 .vdd-viewport-width-normal .vdd-container, .vdd-viewport-width-narrow header nav .vdd-container {
   /* position: relative; */
-  max-width: 764px !important;
+  max-width: 716px !important;
   /* margin: 0px auto; */
   /* padding: 1em; */
   /* overflow: unset; */
