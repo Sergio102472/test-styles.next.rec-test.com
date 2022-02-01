@@ -211,6 +211,18 @@ form.mt-3 {
     position: relative;
 }
 
+.dx-device-mobile .dx-toolbar .dx-toolbar-before {
+    padding-right: 0;
+}
+
+.dx-toolbar-after, .dx-toolbar-before, .dx-toolbar-center {
+    top: unset;
+    display: contents;
+    height: auto;
+    margin: 0 !important;
+    padding: 0;
+}
+
 .dx-item.dx-list-item.dx-toolbar-menu-custom {
     border-bottom: 1px solid #e6e6e6;
 }
@@ -268,10 +280,9 @@ span.dx-checkbox-text {
 .dx-device-mobile .dx-toolbar .dx-toolbar-items-container, .dx-toolbar .dx-toolbar-items-container {
   height: 50px;
   align-items: center;
-  flex-wrap: nowrap;
   flex-direction: row;
   display: flex;
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: stretch;
@@ -285,25 +296,16 @@ span.dx-checkbox-text {
 
 
 .dx-device-mobile .dx-toolbar .dx-toolbar-items-container {
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* flex-wrap: nowrap; */
-    /* flex-direction: row-reverse; */
-    /* flex-direction: column-reverse; */
     display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* align-content: center; */
-    justify-content: space-between;
-    align-items: center;
     align-content: stretch;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: row-reverse; */
 }
 
 .dx-device-mobile .dx-toolbar .dx-toolbar-items-container .dx-toolbar-center {
     margin: 0 !important;
-    order: -1;
+    /* order: -1; */
 }
 
 .dx-toolbar-items-container {}
