@@ -303,6 +303,13 @@ span.dx-checkbox-text {
     /* flex-direction: row-reverse; */
 }
 
+.dx-toolbar .dx-toolbar-items-container {
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .dx-device-mobile .dx-toolbar .dx-toolbar-items-container .dx-toolbar-center {
     margin: 0 !important;
     /* order: -1; */
