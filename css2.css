@@ -649,7 +649,7 @@ header.box-shadow {
 }
 
 .dx-dropdownmenu.dx-dropdownmenu-button.dx-button.dx-button-normal.dx-widget.dx-button-has-icon.dx-button-mode-text {
-  background: rgb(226 226 226 / 58%);
+  /* background: rgb(226 226 226 / 58%); */
   color: #fff;
   /* border-radius: 50px; */
   margin: 0px 0 0;
