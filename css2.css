@@ -315,7 +315,12 @@ span.dx-checkbox-text {
     /* order: -1; */
 }
 
-.dx-toolbar-items-container {}
+.dx-toolbar-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .dx-radiogroup-horizontal {
   border: 1px solid #D0D0D0;
@@ -392,12 +397,12 @@ span.dx-checkbox-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
-  justify-content: flex-start;
+  justify-content: flex-end;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
