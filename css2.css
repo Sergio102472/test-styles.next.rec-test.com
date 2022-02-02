@@ -277,7 +277,7 @@ span.dx-checkbox-text {
 
 
 
-.dx-device-mobile .dx-toolbar .dx-toolbar-items-container, .dx-toolbar .dx-toolbar-items-container {
+.dx-device-mobile #mainMenu .dx-toolbar-items-container, #mainMenu .dx-toolbar-items-container {
   height: 50px;
   align-items: center;
   flex-direction: row;
@@ -289,13 +289,13 @@ span.dx-checkbox-text {
   align-content: stretch;
 }
 
-.vdd-page-signin .dx-device-mobile .dx-toolbar .dx-toolbar-items-container,
-.vdd-page-signin .dx-toolbar .dx-toolbar-items-container
+.vdd-page-signin .dx-device-mobile #mainMenu .dx-toolbar-items-container,
+.vdd-page-signin #mainMenu .dx-toolbar-items-container
 {flex-direction: row;}
 
 
 
-.dx-device-mobile .dx-toolbar .dx-toolbar-items-container {
+.dx-device-mobile #mainMenu .dx-toolbar-items-container {
     display: flex;
     align-content: stretch;
     align-items: center;
@@ -303,14 +303,14 @@ span.dx-checkbox-text {
     /* flex-direction: row-reverse; */
 }
 
-.dx-toolbar .dx-toolbar-items-container {
+#mainMenu .dx-toolbar-items-container {
     display: flex;
     align-content: stretch;
     align-items: center;
     justify-content: space-between;
 }
 
-.dx-device-mobile .dx-toolbar .dx-toolbar-items-container .dx-toolbar-center {
+.dx-device-mobile #mainMenu .dx-toolbar-items-container .dx-toolbar-center {
     margin: 0 !important;
     /* order: -1; */
 }
@@ -345,7 +345,7 @@ span.dx-checkbox-text {
 
 .dx-overlay-wrapper {
   top: 0;
-  pointer-events: none;
+  /* pointer-events: none; */
   width: 100%;
   height: 100%;
   left: 0;
@@ -1189,3 +1189,20 @@ div#formProfile-caption {
   }
 }
 /*# sourceMappingURL=css2.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
