@@ -182,8 +182,9 @@ form.mt-3 {
   padding: 0 0 15px 0;
 }
 
-.dx-theme-border-color {
-  /* border-color: #D0D0D0 !important; */
+.vdd-main-menu {
+  position: sticky;
+  top: 0;
 }
 
 .text-nowrap, .dx-icon {
