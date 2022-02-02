@@ -366,7 +366,7 @@ span.dx-checkbox-text {
   max-width: 500px;
 }
 
-.dx-overlay-content.dx-popup-normal.dx-resizable {
+.dx-dropdownmenu-popup-wrapper .dx-overlay-content.dx-popup-normal.dx-resizable {
     width: 100% !important;
     left: 0px !important;
     top: 61px !important;
@@ -374,7 +374,7 @@ span.dx-checkbox-text {
     /* transform: none !important; */
     transform: translate(0)  scale(1)  !important;
     max-width: 100%;
-    background: rgb(255 255 255 / 75%);
+    background: rgb(255 255 255);
 }
 
 .dx-overlay-content.dx-popup-normal.dx-resizable .dx-scrollview-content {
