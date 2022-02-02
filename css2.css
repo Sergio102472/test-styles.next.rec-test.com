@@ -368,13 +368,16 @@ span.dx-checkbox-text {
 
 .dx-dropdownmenu-popup-wrapper .dx-overlay-content.dx-popup-normal.dx-resizable {
     width: 100% !important;
+    max-width: 750px !important;
+    right: 0;
     left: 0px !important;
     top: 61px !important;
     height: calc(100vh - 72px ) !important;
     /* transform: none !important; */
     transform: translate(0)  scale(1)  !important;
-    max-width: 100%;
+    /* max-width: 100%; */
     background: rgb(255 255 255);
+    margin: 0 auto;
 }
 
 .dx-overlay-content.dx-popup-normal.dx-resizable .dx-scrollview-content {
