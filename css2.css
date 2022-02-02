@@ -1136,7 +1136,7 @@ div#formProfile-caption {
     min-width: 30%;
   }
   .d-flex.flex-row.align-items-center {
-    -webkit-box-orient: vertical !important;
+    /* -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
@@ -1147,7 +1147,7 @@ div#formProfile-caption {
         -ms-flex-align: stretch !important;
             align-items: stretch !important;
     -ms-flex-line-pack: stretch;
-        align-content: stretch;
+        align-content: stretch; */
   }
   .d-flex.flex-row.align-items-center > div {
     width: 100% !important;
