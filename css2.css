@@ -105,7 +105,7 @@ body {
 .vdd-viewport-width-narrow main .vdd-container {
   position: relative;
   max-width: 750px !important;
-  margin: 0 auto;
+  margin: 40px auto 0 auto;
   padding: 1em !important;
   overflow: unset;
 }
@@ -558,8 +558,9 @@ div.dx-button-mode-contained:hover, a.dx-button-mode-contained:hover {
 
 div.dx-button-mode-contained,
 a.dx-button-mode-contained:hover {
-  background-color: #05054b;
+  /* background-color: #05054b; */
   border-color: #05054b;
+  /* color: #ffffff; */
 }
 
 .vdd-page-checkout #discard-order {
