@@ -562,7 +562,14 @@ a.dx-button-mode-contained:hover {
   border-color: #05054b;
   /* color: #ffffff; */
 }
-
+div.dx-button-mode-contained.dx-button-has-icon .dx-icon.dx-icon-edit,
+a.dx-button-mode-contained.dx-button-has-icon:hover .dx-icon.dx-icon-edit {
+ color: #05054b;
+}
+.dx-button-mode-contained.dx-button-danger.dx-button-has-icon .dx-icon.dx-icon-edit,
+a.dx-button-mode-contained.dx-button-danger.dx-button-has-icon:hover .dx-icon.dx-icon-edit {
+ color: #d9534f;
+}
 .vdd-page-checkout #discard-order {
   margin-top: -162px;
 }
