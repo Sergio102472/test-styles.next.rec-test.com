@@ -409,6 +409,7 @@ span.dx-checkbox-text {
   align-items: center;
   -ms-flex-line-pack: stretch;
   align-content: stretch;
+  width: 100%;
 }
 
 div > strong {
