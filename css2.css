@@ -586,9 +586,12 @@ a.dx-button-mode-contained.dx-button-danger.dx-button-has-icon:hover  {
 
 
 .vdd-page-checkout #discard-order {
-  margin-top: -162px;
+  margin-top: -86px;
+  float: right;
 }
-
+.d-flex.align-items-center.mt-3 {
+  display: inherit !important;
+}
 .dx-button-mode-contained.dx-state-hover {
   background-color: #fff !important;
   border-color: #05054b !important;
