@@ -353,7 +353,7 @@ span.dx-checkbox-text {
 }
 
 .dx-overlay-wrapper {
-  top: 0;
+  top: 53px;
   pointer-events: all;
   width: 100%;
   height: 100%;
@@ -380,7 +380,7 @@ span.dx-checkbox-text {
     max-width: 750px !important;
     right: 0;
     left: 0px !important;
-    top: 61px !important;
+    top: 9px !important;
     height: calc(100vh - 72px ) !important;
     /* transform: none !important; */
     transform: translate(0)  scale(1)  !important;
