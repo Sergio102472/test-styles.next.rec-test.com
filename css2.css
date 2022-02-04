@@ -904,7 +904,11 @@ header.box-shadow {
   border-radius: 0 50px 50px 0;
   /* color: $white-color; */
 }
-
+input.text-monospace.dx-texteditor-input {
+  font-family: 'BootsSharp' , sans-serif !important;
+  line-height: 18px;
+  font-size: 16px !important;
+}
 .dx-dropdowneditor-button.dx-state-active .dx-dropdowneditor-icon,
 .dx-dropdowneditor.dx-dropdowneditor-active .dx-dropdowneditor-icon {
   background-color: transparent;
