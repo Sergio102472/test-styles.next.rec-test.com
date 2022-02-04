@@ -1215,6 +1215,18 @@ div#formProfile-caption {
   flex-direction: column-reverse;
 }
 
+
+.dx-device-mobile .dx-datebox-wrapper .dx-toolbar-center {
+  display: block;
+  order: -1;
+}
+
+
+.dx-device-mobile .dx-overlay-content.dx-popup-normal.dx-resizable.dx-popup-fullscreen-width.dx-popup-inherit-height {
+  transform: translate(0px, 100%) !important;
+}
+
+
 @media (max-width: 500px) {
   .d-flex.flex-row.mt-2.vdd-hide-invalid-badge > div {
     min-width: 30%;
