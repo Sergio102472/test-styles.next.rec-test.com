@@ -1153,7 +1153,19 @@ div#formProfile-caption {
 }
 
 
-
+.dx-checkbox-indeterminate .dx-checkbox-icon::before {
+  position: absolute;
+  display: block;
+  width: 1em;
+  top: 50%;
+  margin-top: -0.5em;
+  left: 50%;
+  margin-left: -0.5em;
+  content: "";
+  background-color: transparent;
+  border-radius: 2px;
+  height: 1em;
+}
 
 
 
