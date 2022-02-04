@@ -1177,7 +1177,7 @@ div#formProfile-caption {
   flex-direction: column;
 }
 
-div#dx-c31901e6-b2a6-db4c-c939-9fccf9e4ada4 {
+.dx-overlay-content.dx-invalid-message-content.dx-resizable {
   max-width: 718px;
   width: auto;
   height: auto !important;
@@ -1200,7 +1200,7 @@ div#dx-c31901e6-b2a6-db4c-c939-9fccf9e4ada4 {
   height: auto !important;
   left: 0px;
   top: 0px;
-  transform: translate(0px px , -45px) !important;
+  transform: translate(0px, -45px) !important;
   transition: all 0s ease 0s;
 }
 
