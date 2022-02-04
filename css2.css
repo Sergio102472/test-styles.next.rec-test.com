@@ -1204,7 +1204,16 @@ div#formProfile-caption {
   transition: all 0s ease 0s;
 }
 
-
+.dx-device-mobile .dx-popup-wrapper > .dx-overlay-content {
+  border: 1px solid #ddd;
+  background: #fff;
+  -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+  box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+  border-radius: 6px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column-reverse;
+}
 
 @media (max-width: 500px) {
   .d-flex.flex-row.mt-2.vdd-hide-invalid-badge > div {
