@@ -1184,7 +1184,7 @@ div#formProfile-caption {
   z-index: 1505;
   left: 0px;
   top: 0px;
-  transform: translate(0px, 95px) !important;
+  transform: translate(0px, 45px) !important;
   transition: all 0s ease 0s;
 }
 .dx-radiogroup.dx-radiogroup-horizontal .dx-item.dx-radiobutton {
