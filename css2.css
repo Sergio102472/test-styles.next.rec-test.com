@@ -1234,6 +1234,19 @@ div#formProfile-caption {
 }
 
 
+
+.dx-device-mobile div#buttonsContainerformButtons {
+  position: fixed;
+  bottom: 0;
+  padding: 15px;
+  width: 94%;
+  border-top: 1px solid #000;
+  background: #fff;
+}
+
+
+
+
 @media (max-width: 500px) {
   .d-flex.flex-row.mt-2.vdd-hide-invalid-badge > div {
     min-width: 30%;
