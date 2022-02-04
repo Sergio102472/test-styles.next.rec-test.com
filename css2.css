@@ -248,7 +248,10 @@ form.mt-3 {
     align-items: start;
     text-overflow: clip;
 }
-
+.dx-dropdownmenu-popup-wrapper .dx-overlay-content .dx-popup-content {
+  padding: 1px;
+  height: inherit !important;
+}
 .dx-field-item-content.dx-field-item-content-location-bottom .align-items-center {
     align-items: start !important;
 }
