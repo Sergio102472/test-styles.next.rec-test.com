@@ -224,7 +224,7 @@ form.mt-3 {
     padding: 0;
 }
 
-.dx-item.dx-list-item.dx-toolbar-menu-custom {
+.dx-device-mobile .dx-item.dx-list-item.dx-toolbar-menu-custom {
     border-bottom: 1px solid #e6e6e6;
 }
 
