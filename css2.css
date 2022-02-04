@@ -1177,6 +1177,32 @@ div#formProfile-caption {
   flex-direction: column;
 }
 
+div#dx-c31901e6-b2a6-db4c-c939-9fccf9e4ada4 {
+  max-width: 718px;
+  width: auto;
+  height: auto !important;
+  z-index: 1505;
+  left: 0px;
+  top: 0px;
+  transform: translate(0px, 95px) !important;
+  transition: all 0s ease 0s;
+}
+.dx-radiogroup.dx-radiogroup-horizontal .dx-item.dx-radiobutton {
+  display: inline-flex;
+  margin: 0 2em 0 0;
+  display: flex;
+  margin: 0.5em 0;
+}
+.dx-overlay-wrapper.dx-invalid-message.dx-invalid-message-auto {
+  z-index: 1508;
+  position: absolute;
+  width: 718px;
+  height: auto !important;
+  left: 0px;
+  top: 0px;
+  transform: translate(0px px , -45px) !important;
+  transition: all 0s ease 0s;
+}
 
 
 
