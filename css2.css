@@ -1169,7 +1169,13 @@ div#formProfile-caption {
 
 
 
-
+.dx-radiogroup-horizontal .dx-collection {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
 
 
 
