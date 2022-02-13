@@ -322,7 +322,7 @@ span.dx-checkbox-text {
 .dx-toolbar-items-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -505,7 +505,7 @@ a {
   background: #05054b;
   border-radius: 5px;
   border: 1px solid #05054b;
-  padding: 0px 0px 0px 0px;
+  padding: 4px 0px 0px 0px;
   color: #fff;
   display: inline-block;
   margin-bottom: 0;
@@ -1192,7 +1192,7 @@ div#formProfile-caption {
   z-index: 1505;
   left: 0px;
   top: 0px;
-  transform: translate(0px, 45px) !important;
+  transform: translate(0px, 49px) !important;
   transition: all 0s ease 0s;
 }
 .dx-radiogroup.dx-radiogroup-horizontal .dx-item.dx-radiobutton {
@@ -1213,14 +1213,14 @@ div#formProfile-caption {
 }
 
 .dx-device-mobile .dx-popup-wrapper > .dx-overlay-content {
-  border: 1px solid #ddd;
-  background: #fff;
-  -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
-  box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
-  border-radius: 6px;
-  max-width: 500px;
-  display: flex;
-  flex-direction: column-reverse;
+  /* border: 1px solid #ddd; */
+  /* background: #fff; */
+  /* -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%); */
+  /* box-shadow: 0 6px 12px rgb(0 0 0 / 18%); */
+  /* border-radius: 6px; */
+  /* max-width: 500px; */
+  /* display: flex; */
+  /* flex-direction: column-reverse; */
 }
 
 
@@ -1253,18 +1253,18 @@ div#formProfile-caption {
     min-width: 30%;
   }
   .d-flex.flex-row.align-items-center {
-    /* -webkit-box-orient: vertical !important; */
-    /* -webkit-box-direction: normal !important; */
-    -ms-flex-direction: column !important;
-    /* flex-direction: column !important; */
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
     -ms-flex-wrap: wrap;
-    /* flex-wrap: wrap; */
-    /* gap: 5px; */
-    /* -webkit-box-align: stretch !important; */
-    -ms-flex-align: stretch !important;
-    /* align-items: stretch !important; */
+        flex-wrap: wrap;
+    gap: 5px;
+    -webkit-box-align: stretch !important;
+        -ms-flex-align: stretch !important;
+            align-items: stretch !important;
     -ms-flex-line-pack: stretch;
-    /* align-content: stretch; */
+        align-content: stretch;
   }
   .d-flex.flex-row.align-items-center > div {
     width: 100% !important;
