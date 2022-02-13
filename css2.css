@@ -67,7 +67,7 @@
 }
 
 .mt-1, .my-1 {
-  margin-top: 0 !important;
+  /* margin-top: 0 !important; */
 }
 
 .pt-2, .py-2 {
@@ -1255,18 +1255,18 @@ div#formProfile-caption {
     min-width: 30%;
   }
   .d-flex.flex-row.align-items-center {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
+    /* -webkit-box-orient: vertical !important; */
+    /* -webkit-box-direction: normal !important; */
+    -ms-flex-direction: column !important;
+    /* flex-direction: column !important; */
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    gap: 5px;
-    -webkit-box-align: stretch !important;
-        -ms-flex-align: stretch !important;
-            align-items: stretch !important;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    /* -webkit-box-align: stretch !important; */
+    -ms-flex-align: stretch !important;
+    /* align-items: stretch !important; */
     -ms-flex-line-pack: stretch;
-        align-content: stretch;
+    /* align-content: stretch; */
   }
   .d-flex.flex-row.align-items-center > div {
     width: 100% !important;
