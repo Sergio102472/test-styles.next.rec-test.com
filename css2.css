@@ -1126,7 +1126,7 @@ a.text-monospace.dx-user-select {
   /* text-transform: uppercase; */
   color: #05054b;
   margin-bottom: 7px !important;
-  margin-top: 25px !important;
+  /* margin-top: 10px !important; */
   /* letter-spacing: .1em; */
   font-weight: 500;
 }
@@ -1239,10 +1239,12 @@ div#formProfile-caption {
 .dx-device-mobile div#buttonsContainerformButtons {
   position: fixed;
   bottom: 0;
-  padding: 15px;
-  width: 94%;
-  border-top: 1px solid #000;
+  padding: 10px 15px 10px 15px;
+  width: 100%;
+  /* border-top: 1px solid #05155f; */
   background: #fff;
+  box-shadow: 1px 0rem 7px 0px rgb(129 129 129 / 47%);
+  margin: 0 -16px;
 }
 
 
