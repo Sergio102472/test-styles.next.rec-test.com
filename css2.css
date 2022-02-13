@@ -375,7 +375,7 @@ span.dx-checkbox-text {
   max-width: 500px;
 }
 
-.dx-dropdownmenu-popup-wrapper .dx-overlay-content.dx-popup-normal.dx-resizable {
+.dx-device-mobile .dx-dropdownmenu-popup-wrapper .dx-overlay-content.dx-popup-normal.dx-resizable {
     width: 100% !important;
     max-width: 750px !important;
     right: 0;
