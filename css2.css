@@ -105,7 +105,7 @@ body {
 .vdd-viewport-width-narrow main .vdd-container {
   position: relative;
   max-width: 750px !important;
-  margin: 40px auto 0 auto;
+  margin: 15px auto 0 auto;
   padding: 1em !important;
   overflow: unset;
 }
@@ -1216,7 +1216,7 @@ div#formProfile-caption {
   /* border: 1px solid #ddd; */
   /* background: #fff; */
   /* -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%); */
-  /* box-shadow: 0 6px 12px rgb(0 0 0 / 18%); */
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 17%);
   /* border-radius: 6px; */
   /* max-width: 500px; */
   /* display: flex; */
