@@ -225,7 +225,7 @@ form.mt-3 {
 }
 
 .dx-device-mobile .dx-item.dx-list-item.dx-toolbar-menu-custom {
-    border-bottom: 1px solid #e6e6e6;
+    /* border-bottom: 1px solid #e6e6e6; */
 }
 
 .dx-layout-manager .dx-field-item:not(.dx-first-row) {
@@ -711,6 +711,7 @@ header.box-shadow {
   display: block !important;
   text-align: left;
   text-decoration: none;
+  text-align: c;
 }
 
 /* PAGE TEST COVID-19 */
