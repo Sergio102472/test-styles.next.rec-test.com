@@ -1248,7 +1248,11 @@ div#formProfile-caption {
   left: 0;
   right: 0;
 }
-.dx-invalid .dx-overlay-wrapper.dx-invalid-message.dx-invalid-message-auto {display:block;}
+.dx-invalid-message.dx-overlay-wrapper {
+  width: 100%;
+  visibility: visible;
+  pointer-events: none;
+}
 
 
 
