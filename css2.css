@@ -1248,7 +1248,7 @@ div#formProfile-caption {
   left: 0;
   right: 0;
 }
-
+.dx-invalid .dx-invalid-message.dx-overlay {display:block;}
 
 
 
