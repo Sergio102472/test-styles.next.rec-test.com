@@ -1202,7 +1202,7 @@ div#formProfile-caption {
   margin: 0.5em 0;
 }
 .dx-overlay-wrapper.dx-invalid-message.dx-invalid-message-auto {
-  z-index: 1508;
+  z-index: auto !important;
   position: absolute;
   width: 718px;
   height: auto !important;
