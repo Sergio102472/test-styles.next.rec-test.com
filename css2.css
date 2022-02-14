@@ -1244,7 +1244,9 @@ div#formProfile-caption {
   /* border-top: 1px solid #05155f; */
   background: #fff;
   box-shadow: 1px 0rem 7px 0px rgb(129 129 129 / 47%);
-  margin: 0 -16px;
+  margin: 0;
+  left: 0;
+  right: 0;
 }
 
 
