@@ -534,6 +534,10 @@ a {
   -webkit-transition: background .4s,color .4s,border .4s;
   transition: background .4s,color .4s,border .4s;
 }
+
+#submit-payment.dx-button-mode-contained.dx-button-success {
+    float: right;
+}
 .dx-button-has-text .dx-button-content {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -605,7 +609,9 @@ a.dx-button-mode-contained.dx-button-danger.dx-button-has-icon:hover  {
 
 .vdd-page-checkout #discard-order {
   margin-top: -86px;
+  margin-right: 100px;
   float: right;
+  padding: 4px 0px 1px 0px;
 }
 .d-flex.align-items-center.mt-3 {
   display: inherit !important;
