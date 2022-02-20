@@ -535,7 +535,7 @@ a {
   transition: background .4s,color .4s,border .4s;
 }
 
-#submit-payment.dx-button-mode-contained.dx-button-success {
+.vdd-page-checkout #submit-payment.dx-button-mode-contained.dx-button-success {
     float: right;
 }
 .dx-button-has-text .dx-button-content {
