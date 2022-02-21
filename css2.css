@@ -535,7 +535,7 @@ a {
   transition: background .4s,color .4s,border .4s;
 }
 
-.vdd-page-checkout #submit-payment.dx-button-mode-contained.dx-button-success {
+#submit-payment.dx-button-mode-contained.dx-button-success {
     float: right;
 }
 .dx-button-has-text .dx-button-content {
@@ -615,6 +615,10 @@ a.dx-button-mode-contained.dx-button-danger.dx-button-has-icon:hover  {
 }
 .d-flex.align-items-center.mt-3 {
   display: inherit !important;
+}
+
+.vdd-page-profile .d-flex.flex-row.align-items-center.mt-3 {
+    display: flex !important;
 }
 .dx-button-mode-contained.dx-state-hover {
   background-color: #fff !important;
